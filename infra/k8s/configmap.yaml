@@ -1,0 +1,20 @@
+# ConfigMap for TestCast Configuration
+# Usage: kubectl apply -f infra/k8s/configmap.yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: testcast-config
+  namespace: testcast
+  labels:
+    app: testcast
+data:
+  # Playwright configuration via environment variables
+  PLAYWRIGHT_BASE_URL: "https://www.saucedemo.com"
+  PLAYWRIGHT_TIMEOUT: "30000"
+  PLAYWRIGHT_RETRIES: "1"
+  PLAYWRIGHT_WORKERS: "3"
+  # Browser projects to run
+  PLAYWRIGHT_BROWSERS: "chromium,firefox,webkit"
+  # Report settings
+  PLAYWRIGHT_REPORT_DIR: "/artifacts/playwright-report"
+  PLAYWRIGHT_TEST_RESULTS_DIR: "/artifacts/test-results"

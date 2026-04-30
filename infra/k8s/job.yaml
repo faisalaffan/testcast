@@ -1,0 +1,105 @@
+# Kubernetes Job for On-Demand TestCast Execution
+# Usage: kubectl apply -f infra/k8s/job.yaml
+# Or trigger from GitLab CI: kubectl create job e2e-mr-test-$CI_MERGE_REQUEST_IID -f infra/k8s/job.yaml
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: testcast-mr
+  namespace: testcast
+  labels:
+    app: testcast
+    trigger: merge-request
+  annotations:
+    description: "TestCast tests triggered by Merge Request"
+spec:
+  # Retry count
+  backoffLimit: 2
+  # Timeout
+  activeDeadlineSeconds: 1800  # 30 minutes
+  # Cleanup completed pods after
+  ttlSecondsAfterFinished: 3600  # 1 hour
+  template:
+    metadata:
+      labels:
+        app: testcast
+    spec:
+      # Use ServiceAccount with minimal permissions
+      serviceAccountName: testcast-runner
+      restartPolicy: Never
+
+      # Init container to setup
+      initContainers:
+        - name: setup
+          image: mcr.microsoft.com/playwright:v1.40.0
+          command:
+            - /bin/sh
+            - -c
+            - |
+              echo "Setting up test environment..."
+              echo "BASE_URL: $PLAYWRIGHT_BASE_URL"
+              echo "BROWSERS: $PLAYWRIGHT_BROWSERS"
+          envFrom:
+            - configMapRef:
+                name: testcast-config
+          env:
+            - name: GIT_REF
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.labels['git-branch']
+            - name: CI_JOB_ID
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.annotations['gitlab.com/job-id']
+
+      # Main Playwright container
+      containers:
+        - name: playwright
+          image: mcr.microsoft.com/playwright:v1.40.0
+          imagePullPolicy: IfNotPresent
+
+          # Working directory (assumes code is mounted or cloned)
+          workingDir: /workspace
+
+          # Command to run tests
+          command:
+            - /bin/sh
+            - -c
+            - |
+              echo "Starting TestCast tests..."
+              echo "CI_MERGE_REQUEST_IID: ${CI_MERGE_REQUEST_IID:-unspecified}"
+
+              # Run tests with specific project (chromium for MR speed)
+              npx playwright test \
+                --project=chromium \
+                --reporter=html,list \
+                --output=/artifacts/playwright-report
+
+              echo "Tests completed. Exit code: $?"
+
+          envFrom:
+            - configMapRef:
+                name: testcast-config
+
+          # Pass secrets if needed
+          env:
+            - name: CI_MERGE_REQUEST_IID
+              value: "{{CI_MERGE_REQUEST_IID}}"
+
+          # Resource limits
+          resources:
+            requests:
+              cpu: "500m"
+              memory: "512Mi"
+            limits:
+              cpu: "2"
+              memory: "2Gi"
+
+          # Volume mounts for artifacts
+          volumeMounts:
+            - name: artifacts
+              mountPath: /artifacts
+
+      # volumes for sharing artifacts between containers
+      volumes:
+        - name: artifacts
+          emptyDir: {}

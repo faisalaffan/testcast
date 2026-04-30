@@ -1,0 +1,74 @@
+# Kubernetes Job for TestCast Full Browser Matrix (Pre-merge Validation)
+# Usage: kubectl apply -f infra/k8s/job-full-matrix.yaml
+# Triggered before merge to main branch
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: testcast-full-matrix
+  namespace: testcast
+  labels:
+    app: testcast
+    trigger: pre-merge
+    browser-matrix: full
+  annotations:
+    description: "TestCast tests - full browser matrix pre-merge validation"
+spec:
+  backoffLimit: 2
+  activeDeadlineSeconds: 2400  # 40 minutes
+  ttlSecondsAfterFinished: 7200  # 2 hours
+
+  template:
+    metadata:
+      labels:
+        app: testcast
+    spec:
+      serviceAccountName: testcast-runner
+      restartPolicy: Never
+
+      containers:
+        - name: playwright
+          image: mcr.microsoft.com/playwright:v1.40.0
+          imagePullPolicy: IfNotPresent
+
+          workingDir: /workspace
+
+          # Full matrix test run
+          command:
+            - /bin/sh
+            - -c
+            - |
+              echo "Starting TestCast full browser matrix validation..."
+              echo "Running on: $(hostname)"
+              echo "Timestamp: $(date -u)"
+
+              # Run full suite with all browsers
+              npx playwright test \
+                --reporter=html,list,junit \
+                --output=/artifacts/playwright-report
+
+              echo "Full matrix tests completed. Exit code: $?"
+
+          envFrom:
+            - configMapRef:
+                name: testcast-config
+
+          # Force all browsers
+          env:
+            - name: PLAYWRIGHT_BROWSERS
+              value: "chromium,firefox,webkit"
+
+          resources:
+            requests:
+              cpu: "1"
+              memory: "1Gi"
+            limits:
+              cpu: "4"
+              memory: "4Gi"
+
+          volumeMounts:
+            - name: artifacts
+              mountPath: /artifacts
+
+      volumes:
+        - name: artifacts
+          emptyDir: {}

@@ -1,0 +1,9 @@
+# Namespace for TestCast Runner
+# Usage: kubectl apply -f infra/k8s/namespace.yaml
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: testcast
+  labels:
+    app: testcast
+    environment: ci

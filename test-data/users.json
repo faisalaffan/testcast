@@ -1,0 +1,32 @@
+{
+  "validUsers": [
+    {
+      "username": "standard_user",
+      "password": "secret_sauce"
+    }
+  ],
+  "invalidUsers": [
+    {
+      "username": "standard_user",
+      "password": "wrong_password",
+      "expectedError": "Username and password do not match any user in this service"
+    },
+    {
+      "username": "",
+      "password": "secret_sauce",
+      "expectedError": "Username is required"
+    },
+    {
+      "username": "locked_out_user",
+      "password": "secret_sauce",
+      "expectedError": "Sorry, this user has been locked out. You cannot see this e-commerce site unless you and your browser are authenticated."
+    }
+  ],
+  "checkoutUsers": [
+    {
+      "firstName": "John",
+      "lastName": "Doe",
+      "postalCode": "12345"
+    }
+  ]
+}

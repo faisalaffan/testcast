@@ -1,0 +1,114 @@
+# Kubernetes CronJob for Scheduled TestCast Execution
+# Usage: kubectl apply -f infra/k8s/cronjob.yaml
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: testcast-nightly
+  namespace: testcast
+  labels:
+    app: testcast
+    schedule: nightly
+    trigger: scheduled
+  annotations:
+    description: "TestCast tests - nightly full regression"
+spec:
+  # Schedule: Every day at 2:00 AM (midnight EST, 6 AM UTC)
+  # Adjust based on your timezone needs
+  schedule: "0 2 * * *"
+
+  # Timezone
+  timeZone: "UTC"
+
+  # Concurrency policy
+  # - Allow: allow concurrent runs
+  # - Forbid: skip if previous still running
+  # - Replace: cancel previous, start new
+  concurrencyPolicy: Forbid
+
+  # Successful jobs history limit (keep last 3)
+  successfulJobsHistoryLimit: 3
+
+  # Failed jobs history limit (keep last 5)
+  failedJobsHistoryLimit: 5
+
+  # Starting deadline (seconds since last scheduled time)
+  startingDeadlineSeconds: 300
+
+  jobTemplate:
+    metadata:
+      labels:
+        app: testcast
+        schedule: nightly
+    spec:
+      # Retry count
+      backoffLimit: 2
+
+      # Timeout
+      activeDeadlineSeconds: 3600  # 60 minutes for full suite
+
+      template:
+        metadata:
+          labels:
+            app: testcast
+        spec:
+          serviceAccountName: testcast-runner
+          restartPolicy: Never
+
+          containers:
+            - name: playwright
+              image: mcr.microsoft.com/playwright:v1.40.0
+              imagePullPolicy: IfNotPresent
+
+              workingDir: /workspace
+
+              # Full test suite - all browsers for nightly
+              command:
+                - /bin/sh
+                - -c
+                - |
+                  echo "Starting TestCast nightly regression suite..."
+                  echo "Timestamp: $(date -u)"
+
+                  # Run full test suite with all browsers
+                  npx playwright test \
+                    --reporter=html,list,junit \
+                    --output=/artifacts/playwright-report
+
+                  EXIT_CODE=$?
+                  echo "Tests completed with exit code: $EXIT_CODE"
+
+                  # Upload artifacts to S3/GCS (if configured)
+                  # Uncomment and configure for your object storage
+                  # /scripts/upload-artifacts.sh
+
+                  exit $EXIT_CODE
+
+              envFrom:
+                - configMapRef:
+                    name: testcast-config
+
+              # Override BROWSERS env for full suite
+              env:
+                - name: PLAYWRIGHT_BROWSERS
+                  value: "chromium,firefox,webkit"
+
+              resources:
+                requests:
+                  cpu: "1"
+                  memory: "1Gi"
+                limits:
+                  cpu: "4"
+                  memory: "4Gi"
+
+              volumeMounts:
+                - name: artifacts
+                  mountPath: /artifacts
+                # - name: aws-credentials
+                #   mountPath: /root/.aws
+
+          volumes:
+            - name: artifacts
+              emptyDir: {}
+            # - name: aws-credentials
+            #   secret:
+            #     secretName: aws-artifacts-secret

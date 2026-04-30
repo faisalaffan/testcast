@@ -1,0 +1,504 @@
+Test Name,Suite,Status,Duration (ms),Retries,Flakiness,Flakiness Score (%),Last Run,Total Runs,Last Failed,Errors
+DDT-Journey: standard_user login behavior @critical @p0,User Journey — All User Types Login Behavior,PASSED,1103,0,Stable,50,N/A,2,
+DDT-Journey: locked_out_user login behavior @critical @p0,User Journey — All User Types Login Behavior,PASSED,1065,0,Stable,50,N/A,2,
+DDT-Journey: problem_user login behavior @critical @p0,User Journey — All User Types Login Behavior,PASSED,1175,0,Stable,50,N/A,2,
+DDT-Journey: error_user login behavior @critical @p0,User Journey — All User Types Login Behavior,PASSED,1135,0,Stable,50,N/A,2,
+DDT-Journey: visual_user login behavior @critical @p0,User Journey — All User Types Login Behavior,PASSED,1091,0,Stable,50,N/A,2,
+DDT-Journey: performance_glitch_user login behavior @critical @p0,User Journey — All User Types Login Behavior,PASSED,6176,0,Stable,50,N/A,2,
+Price Accuracy: standard_user (expected correct: true) @critical @p0,Cross-User Comparison — Inventory Price Accuracy,PASSED,1392,0,Stable,50,N/A,2,
+Price Accuracy: problem_user (expected correct: true) @critical @p0,Cross-User Comparison — Inventory Price Accuracy,PASSED,1368,0,Stable,50,N/A,2,
+Price Accuracy: error_user (expected correct: true) @critical @p0,Cross-User Comparison — Inventory Price Accuracy,PASSED,1276,0,Stable,50,N/A,2,
+Price Accuracy: visual_user (expected correct: false) @critical @p0,Cross-User Comparison — Inventory Price Accuracy,PASSED,1237,0,Stable,50,N/A,2,
+Price Accuracy: performance_glitch_user (expected correct: true) @critical @p0,Cross-User Comparison — Inventory Price Accuracy,PASSED,6885,0,Stable,50,N/A,2,
+DDT: locked_out_user login behavior @critical @p0,Data Driven - All User Types Login,PASSED,1725,0,Stable,50,N/A,2,
+DDT: standard_user login behavior @critical @p0,Data Driven - All User Types Login,PASSED,1916,0,Stable,50,N/A,2,
+DDT: problem_user login behavior @critical @p0,Data Driven - All User Types Login,PASSED,1566,0,Stable,50,N/A,2,
+DDT: error_user login behavior @critical @p0,Data Driven - All User Types Login,PASSED,1912,0,Stable,50,N/A,2,
+DDT: visual_user login behavior @critical @p0,Data Driven - All User Types Login,PASSED,1903,0,Stable,50,N/A,2,
+DDT: performance_glitch_user login behavior @critical @p0,Data Driven - All User Types Login,PASSED,6557,0,Stable,50,N/A,2,
+TC-CART-001: Add single item to cart updates badge and cart contents @critical @p0,SUITE 6: Cart Operations Tests,PASSED,1298,0,Stable,50,N/A,2,
+TC-CALC-001: Single item subtotal equals item price @critical @p0,SUITE 1: Checkout Price Calculation Tests,PASSED,1320,0,Stable,50,N/A,2,
+TC-INT-001: Complete purchase lifecycle @critical @p0,SUITE 12: Integration Tests - Full Order Lifecycle,PASSED,1733,0,Stable,50,N/A,2,
+TC-LOGIN-001: standard_user login succeeds @critical @p0,SUITE 5: Login Flow Tests,PASSED,2022,0,Stable,50,N/A,2,
+TC-001: Login with valid credentials redirects to inventory page @critical @smoke @p0,Login Suite - TC-001 to TC-004,PASSED,2189,0,Stable,50,N/A,2,
+TC-PRICE-001: standard_user inventory price equals cart price @critical @p0,SUITE 2: Price Consistency Tests,PASSED,1465,0,Stable,50,N/A,2,
+TC-SEC-001: Direct inventory URL without login redirects to login @security @critical @p0,SUITE 8: Security Vulnerability Tests,PASSED,1045,0,Stable,50,N/A,2,
+TC-SMOKE-001: Application is reachable @smoke @critical @p0,SUITE 10: Smoke Tests - Critical Path Verification,PASSED,1000,0,Stable,50,N/A,2,
+TC-JOURNEY-SU-01: Complete purchase journey with single item @critical @smoke @p0,User Journey — standard_user (Happy Path),PASSED,1261,0,Stable,50,N/A,2,
+TC-JOURNEY-EU-01: error_user product detail shows render error @critical @p0,User Journey — error_user (Product Detail Render Error),PASSED,1183,0,Stable,50,N/A,2,
+TC-JOURNEY-VU-01: visual_user sees wrong prices on inventory but correct in cart @critical @p0,User Journey — visual_user (Broken Images + Wrong Prices),PASSED,1215,0,Stable,50,N/A,2,
+TC-JOURNEY-PU-01: Cart prices correct; checkout has pricing bug @critical @p0,"User Journey — problem_user (Cart Correct, Checkout Bug)",FAILED,6364,0,Stable,100,2026-04-30T14:14:50.205Z,2,"Error: [2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m failed
+
+Expected pattern: [32m/checkout-step-two\.html/[39m
+Received string:  [31m""https://www.saucedemo.com/checkout-step-one.html""[39m
+Timeout: 5000ms
+
+Call log:
+[2m  - Expect ""toHaveURL"" with timeout 5000ms[22m
+[2m    9 × unexpected value ""https://www.saucedemo.com/checkout-step-one.html""[22m
+"
+TC-JOURNEY-PG-01: Slow login then full cart workflow functions normally @critical @p0,User Journey — performance_glitch_user (Slow Login),PASSED,7134,0,Stable,50,N/A,2,
+TC-001: Standard user can login successfully @critical @p0,Standard User - TC-001 to TC-002,PASSED,1156,0,Stable,50,N/A,2,
+TC-LOCK-01: locked_out_user login attempt shows error message @critical @smoke @p1,locked_out_user — Account Lockout Behavior (Correct),PASSED,1293,0,Stable,50,N/A,2,
+TC-CORNER-001: Add all products then remove all @p1,SUITE 14: Corner/Extreme Case Tests,PASSED,1459,0,Stable,50,N/A,2,
+TC-EDGE-001: Empty cart has no checkout button @p1,SUITE 4: Edge Case Tests,FAILED,1249,0,Stable,100,2026-04-30T14:13:09.219Z,2,"Error: Checkout button should be disabled with empty cart
+
+[2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32mtrue[39m
+Received: [31mfalse[39m"
+TC-EXC-001: Non-existent page shows error message @p1,SUITE 11: Exception/Error Handling Tests,PASSED,777,0,Stable,50,N/A,2,
+TC-NEG-001: Empty username shows error message @p1,SUITE 7: Negative Input Validation Tests,PASSED,1169,0,Stable,50,N/A,2,
+TC-PROD-001: All products have valid images for standard_user @p1,SUITE 3: Product Data Integrity Tests,PASSED,2037,0,Stable,50,N/A,2,
+TC-BOUND-001: Single character first name accepted @p2,SUITE 13: Boundary Value Tests,PASSED,2319,0,Stable,50,N/A,2,
+TC-CALC-002: Multiple items subtotal equals sum of item prices @critical @p0,SUITE 1: Checkout Price Calculation Tests,PASSED,1407,0,Stable,50,N/A,2,
+TC-INT-002: Multiple items have correct cart total @integration @p0,SUITE 12: Integration Tests - Full Order Lifecycle,PASSED,1566,0,Stable,50,N/A,2,
+TC-002: Login with wrong password shows error message @smoke @critical @p0,Login Suite - TC-001 to TC-004,PASSED,1233,0,Stable,50,N/A,2,
+TC-SEC-002: Direct cart URL without login redirects to login @security @critical @p0,SUITE 8: Security Vulnerability Tests,PASSED,1025,0,Stable,50,N/A,2,
+TC-SMOKE-002: Login succeeds for standard_user @smoke @critical @p0,SUITE 10: Smoke Tests - Critical Path Verification,PASSED,2001,0,Stable,50,N/A,2,
+TC-JOURNEY-SU-02: Purchase with multiple items and price sorting @integration @p0,User Journey — standard_user (Happy Path),PASSED,1304,0,Stable,50,N/A,2,
+TC-JOURNEY-EU-02: error_user can add to cart from inventory without viewing detail @bug @p0,User Journey — error_user (Product Detail Render Error),PASSED,1996,0,Stable,50,N/A,2,
+TC-JOURNEY-VU-02: visual_user inventory has at least one broken image @bug @p0,User Journey — visual_user (Broken Images + Wrong Prices),FAILED,3630,0,Stable,100,2026-04-30T14:14:50.563Z,2,"Error: visual_user should have at least 1 broken image
+
+[2mexpect([22m[31mreceived[39m[2m).[22mtoBeGreaterThanOrEqual[2m([22m[32mexpected[39m[2m)[22m
+
+Expected: >= [32m1[39m
+Received:    [31m0[39m"
+TC-002: Standard user sees inventory items after login @critical @p0,Standard User - TC-001 to TC-002,PASSED,1297,0,Stable,50,N/A,2,
+TC-JOURNEY-PU-02: Order completes despite checkout pricing bug @bug @p0,"User Journey — problem_user (Cart Correct, Checkout Bug)",FAILED,6446,0,Stable,100,2026-04-30T14:15:13.330Z,2,"Error: [2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m failed
+
+Expected pattern: [32m/checkout-step-two\.html/[39m
+Received string:  [31m""https://www.saucedemo.com/checkout-step-one.html""[39m
+Timeout: 5000ms
+
+Call log:
+[2m  - Expect ""toHaveURL"" with timeout 5000ms[22m
+[2m    9 × unexpected value ""https://www.saucedemo.com/checkout-step-one.html""[22m
+"
+"TC-LOCK-02: Error message contains ""locked"" keyword @p1",locked_out_user — Account Lockout Behavior (Correct),PASSED,1193,0,Stable,50,N/A,2,
+TC-CART-002: Add multiple items to cart shows correct count and totals @p1,SUITE 6: Cart Operations Tests,PASSED,1718,0,Stable,50,N/A,2,
+TC-EDGE-002: Remove all items from cart @p1,SUITE 4: Edge Case Tests,PASSED,2738,0,Stable,50,N/A,2,
+TC-EXC-002: Empty cart shows appropriate empty state @p1,SUITE 11: Exception/Error Handling Tests,PASSED,1143,0,Stable,50,N/A,2,
+TC-LOGIN-002: locked_out_user is correctly locked out @p1,SUITE 5: Login Flow Tests,PASSED,1351,0,Stable,50,N/A,2,
+TC-NEG-002: Empty password shows error message @p1,SUITE 7: Negative Input Validation Tests,PASSED,1151,0,Stable,50,N/A,2,
+TC-BOUND-002: Very long first name handled @p2,SUITE 13: Boundary Value Tests,PASSED,2247,0,Stable,50,N/A,2,
+TC-CORNER-002: Rapid add/remove operations @p2,SUITE 14: Corner/Extreme Case Tests,PASSED,1568,0,Stable,50,N/A,2,
+TC-INT-003: Remove item updates cart total @integration @p0,SUITE 12: Integration Tests - Full Order Lifecycle,PASSED,1338,0,Stable,50,N/A,2,
+TC-PRICE-003: Cart item prices match checkout overview prices @critical @p0,SUITE 2: Price Consistency Tests,PASSED,1625,0,Stable,50,N/A,2,
+TC-SEC-003: Direct checkout URL without login redirects to login @security @critical @p0,SUITE 8: Security Vulnerability Tests,PASSED,1047,0,Stable,50,N/A,2,
+TC-JOURNEY-SU-03: View product detail and add to cart @integration @p0,User Journey — standard_user (Happy Path),PASSED,2061,0,Stable,50,N/A,2,
+TC-LOCK-03: Error message matches full expected lockout text @p1,locked_out_user — Account Lockout Behavior (Correct),FAILED,1280,0,Stable,100,2026-04-30T14:11:59.123Z,2,"Error: Full error message should match expected text
+
+[2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+Expected substring: [32m""Sorry, this user has been locked out. You cannot see this e-commerce site unless you and your browser are authenticated.""[39m
+Received string:    [31m""Epic sadface: Sorry, this user has been locked out.""[39m"
+TC-EDGE-003: Cart persists after page reload @p1,SUITE 4: Edge Case Tests,PASSED,2229,0,Stable,50,N/A,2,
+TC-EXC-003: Invalid product ID handled gracefully @p1,SUITE 11: Exception/Error Handling Tests,PASSED,1218,0,Stable,50,N/A,2,
+TC-LOGIN-003: problem_user login succeeds @p1,SUITE 5: Login Flow Tests,PASSED,2302,0,Stable,50,N/A,2,
+TC-003: Login with empty username shows error message @p1,Login Suite - TC-001 to TC-004,PASSED,1180,0,Stable,50,N/A,2,
+TC-NEG-003: Non-existent user login fails @p1,SUITE 7: Negative Input Validation Tests,FAILED,1222,0,Stable,100,2026-04-30T14:13:53.718Z,2,"Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoMatch[2m([22m[32mexpected[39m[2m)[22m
+
+Expected pattern: [32m/username do not match|user does not exist|invalid/i[39m
+Received string:  [31m""epic sadface: username and password do not match any user in this service""[39m"
+TC-003: Locked out user sees error message @p1,Locked Out User - TC-003 to TC-004,PASSED,1865,0,Stable,50,N/A,2,
+TC-CORNER-003: standard_user rapid checkout @p2,SUITE 14: Corner/Extreme Case Tests,PASSED,4751,0,Stable,50,N/A,2,
+TC-CALC-004: Total equals subtotal plus tax @critical @p0,SUITE 1: Checkout Price Calculation Tests,PASSED,1343,0,Stable,50,N/A,2,
+TC-INT-004: Continue shopping returns to inventory @integration @p0,SUITE 12: Integration Tests - Full Order Lifecycle,PASSED,2516,0,Stable,50,N/A,2,
+TC-PRICE-004: Checkout total equals sum of items plus tax @critical @p0,SUITE 2: Price Consistency Tests,PASSED,1896,0,Stable,50,N/A,2,
+TC-SEC-004: Logged out session cannot access inventory @security @p0,SUITE 8: Security Vulnerability Tests,PASSED,2170,0,Stable,50,N/A,2,
+TC-SMOKE-004: Add to cart updates cart badge @smoke @critical @p0,SUITE 10: Smoke Tests - Critical Path Verification,PASSED,2161,0,Stable,50,N/A,2,
+TC-CART-004: Remove item from cart decrements badge and removes item @p1,SUITE 6: Cart Operations Tests,PASSED,2313,0,Stable,50,N/A,2,
+TC-CORNER-004: Back/forward navigation stress @p1,SUITE 14: Corner/Extreme Case Tests,PASSED,1547,0,Stable,50,N/A,2,
+TC-EDGE-004: Continue shopping returns to inventory @p1,SUITE 4: Edge Case Tests,PASSED,2206,0,Stable,50,N/A,2,
+TC-EXC-004: Incomplete checkout form shows validation error @p1,SUITE 11: Exception/Error Handling Tests,PASSED,1209,0,Stable,50,N/A,2,
+TC-LOGIN-004: error_user login succeeds @p1,SUITE 5: Login Flow Tests,PASSED,2004,0,Stable,50,N/A,2,
+TC-004: Login with locked_out_user shows locked out error @p1,Login Suite - TC-001 to TC-004,PASSED,1228,0,Stable,50,N/A,2,
+TC-NEG-004: Wrong password fails for existing user @p1,SUITE 7: Negative Input Validation Tests,PASSED,1145,0,Stable,50,N/A,2,
+TC-PROD-004: All products have non-empty descriptions for standard_user @p1,SUITE 3: Product Data Integrity Tests,PASSED,2516,0,Stable,50,N/A,2,
+TC-004: Locked out user is NOT redirected to inventory @p1,Locked Out User - TC-003 to TC-004,PASSED,1641,0,Stable,50,N/A,2,
+TC-BOUND-004: Maximum postal code length handled @p2,SUITE 13: Boundary Value Tests,PASSED,2290,0,Stable,50,N/A,2,
+TC-EXC-005: error_user renders error gracefully @critical @p0,SUITE 11: Exception/Error Handling Tests,PASSED,1155,0,Stable,50,N/A,2,
+TC-SEC-005: Session invalidated after logout @security @p0,SUITE 8: Security Vulnerability Tests,PASSED,2196,0,Stable,50,N/A,2,
+TC-SMOKE-005: Cart shows added items @smoke @p0,SUITE 10: Smoke Tests - Critical Path Verification,PASSED,1288,0,Stable,50,N/A,2,
+TC-LOCK-05: User is NOT redirected to inventory after lockout @p1,locked_out_user — Account Lockout Behavior (Correct),PASSED,1692,0,Stable,50,N/A,2,
+TC-CART-005: Empty cart shows no checkout option @p1,SUITE 6: Cart Operations Tests,FAILED,1379,0,Stable,100,2026-04-30T14:12:42.179Z,2,"Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32mtrue[39m
+Received: [31mfalse[39m"
+TC-005: Products are sorted by price low to high @p1,Inventory Suite - TC-005 to TC-006,PASSED,2068,0,Stable,50,N/A,2,
+TC-EDGE-005: Cancel checkout returns to cart @p1,SUITE 4: Edge Case Tests,FAILED,7593,0,Stable,100,2026-04-30T14:13:19.698Z,2,"Error: [2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m failed
+
+Expected pattern: [32m/cart\.html/[39m
+Received string:  [31m""https://www.saucedemo.com/inventory.html""[39m
+Timeout: 5000ms
+
+Call log:
+[2m  - Expect ""toHaveURL"" with timeout 5000ms[22m
+[2m    9 × unexpected value ""https://www.saucedemo.com/inventory.html""[22m
+"
+TC-NEG-005: Locked out user shows specific error @critical @p1,SUITE 7: Negative Input Validation Tests,PASSED,1140,0,Stable,50,N/A,2,
+TC-PROD-005: All product names match expected values @p1,SUITE 3: Product Data Integrity Tests,PASSED,2035,0,Stable,50,N/A,2,
+TC-005: Locked out user error message is user-friendly @p1,Locked Out User - TC-003 to TC-004,PASSED,1532,0,Stable,50,N/A,2,
+TC-CORNER-005: Sort order maintained through checkout @p2,SUITE 14: Corner/Extreme Case Tests,PASSED,1369,0,Stable,50,N/A,2,
+TC-LOGIN-005: visual_user login succeeds @p2,SUITE 5: Login Flow Tests,PASSED,2086,0,Stable,50,N/A,2,
+TC-CART-006: Cart total equals sum of individual item prices @p0,SUITE 6: Cart Operations Tests,PASSED,1300,0,Stable,50,N/A,2,
+TC-CALC-006: Checkout completion succeeds with correct pricing @critical @p0,SUITE 1: Checkout Price Calculation Tests,PASSED,1298,0,Stable,50,N/A,2,
+TC-INT-006: Order summary totals are correct @integration @critical @p0,SUITE 12: Integration Tests - Full Order Lifecycle,PASSED,1505,0,Stable,50,N/A,2,
+TC-SMOKE-006: Full checkout flow completes @smoke @critical @p0,SUITE 10: Smoke Tests - Critical Path Verification,PASSED,1308,0,Stable,50,N/A,2,
+TC-006: Problem user can login @critical @p0,Problem User - TC-006 to TC-007,PASSED,1503,0,Stable,50,N/A,2,
+TC-BOUND-006: Empty first name rejected @p1,SUITE 13: Boundary Value Tests,PASSED,2033,0,Stable,50,N/A,2,
+TC-LOCK-06: User remains on login page after lockout @p1,locked_out_user — Account Lockout Behavior (Correct),PASSED,1162,0,Stable,50,N/A,2,
+TC-006: Adding product to cart updates badge and cart page @p1,Inventory Suite - TC-005 to TC-006,PASSED,1266,0,Stable,50,N/A,2,
+TC-CORNER-006: Switch users maintains isolation @critical @p1,SUITE 14: Corner/Extreme Case Tests,FAILED,3255,0,Stable,100,2026-04-30T14:13:04.834Z,2,"Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m0[39m
+Received: [31m1[39m"
+TC-EXC-006: problem_user continues despite errors @p1,SUITE 11: Exception/Error Handling Tests,FAILED,6344,0,Stable,100,2026-04-30T14:13:28.172Z,2,"Error: [2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m failed
+
+Expected pattern: [32m/checkout-step-two\.html/[39m
+Received string:  [31m""https://www.saucedemo.com/checkout-step-one.html""[39m
+Timeout: 5000ms
+
+Call log:
+[2m  - Expect ""toHaveURL"" with timeout 5000ms[22m
+[2m    9 × unexpected value ""https://www.saucedemo.com/checkout-step-one.html""[22m
+"
+TC-LOGIN-006: performance_glitch_user login succeeds with delay @p1,SUITE 5: Login Flow Tests,PASSED,7079,0,Stable,50,N/A,2,
+TC-NEG-006: Checkout fails with empty first name @p1,SUITE 7: Negative Input Validation Tests,PASSED,1610,0,Stable,50,N/A,2,
+TC-PRICE-006: visual_user cart shows correct prices despite inventory bug @p1,SUITE 2: Price Consistency Tests,PASSED,1571,0,Stable,50,N/A,2,
+TC-PROD-006: All products have valid positive prices @p1,SUITE 3: Product Data Integrity Tests,PASSED,2034,0,Stable,50,N/A,2,
+TC-SEC-006: Invalid item ID in URL is handled @security @p1,SUITE 8: Security Vulnerability Tests,PASSED,1338,0,Stable,50,N/A,2,
+TC-EDGE-006: Various postal code formats are accepted @p2,SUITE 4: Edge Case Tests,PASSED,1355,0,Stable,50,N/A,2,
+TC-CALC-007: All users except problem_user have correct subtotals @critical @p0,SUITE 1: Checkout Price Calculation Tests,FAILED,11721,0,Stable,100,2026-04-30T14:13:07.248Z,2,"TimeoutError: locator.click: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('[data-test=""back-to-products""]')[22m
+"
+TC-007: Complete checkout flow shows success message @critical @smoke @p0,Checkout Suite - TC-007,PASSED,1551,0,Stable,50,N/A,2,
+TC-PRICE-007: All products have correct prices for standard_user @critical @p0,SUITE 2: Price Consistency Tests,PASSED,2086,0,Stable,50,N/A,2,
+TC-SMOKE-007: Logout redirects to login page @smoke @p0,SUITE 10: Smoke Tests - Critical Path Verification,FAILED,7408,0,Stable,100,2026-04-30T14:14:42.735Z,2,"Error: [2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m failed
+
+Expected pattern: [32m/index|login/i[39m
+Received string:  [31m""https://www.saucedemo.com/""[39m
+Timeout: 5000ms
+
+Call log:
+[2m  - Expect ""toHaveURL"" with timeout 5000ms[22m
+[2m    9 × unexpected value ""https://www.saucedemo.com/""[22m
+"
+TC-007: Problem user UI has visual defects @bug @p0,Problem User - TC-006 to TC-007,PASSED,2017,0,Stable,50,N/A,2,
+TC-BOUND-007: Empty last name rejected @p1,SUITE 13: Boundary Value Tests,PASSED,2044,0,Stable,50,N/A,2,
+TC-LOCK-07: No cart badge visible (user not authenticated) @p1,locked_out_user — Account Lockout Behavior (Correct),PASSED,1521,0,Stable,50,N/A,2,
+TC-CORNER-007: Refresh during checkout handled @p1,SUITE 14: Corner/Extreme Case Tests,PASSED,1358,0,Stable,50,N/A,2,
+TC-EXC-007: Page refresh maintains state @p1,SUITE 11: Exception/Error Handling Tests,PASSED,2189,0,Stable,50,N/A,2,
+TC-007b: Checkout with empty fields shows validation error @p1,Checkout Suite - TC-007,PASSED,1351,0,Stable,50,N/A,2,
+TC-NEG-007: Checkout fails with empty last name @p1,SUITE 7: Negative Input Validation Tests,PASSED,1483,0,Stable,50,N/A,2,
+TC-PROD-007: Products sorted by price low to high @p1,SUITE 3: Product Data Integrity Tests,PASSED,2092,0,Stable,50,N/A,2,
+TC-SEC-007: Back button after logout is blocked @security @p1,SUITE 8: Security Vulnerability Tests,PASSED,2088,0,Stable,50,N/A,2,
+TC-EXC-008: visual_user handles broken images without crash @bug @p0,SUITE 11: Exception/Error Handling Tests,PASSED,3723,0,Stable,50,N/A,2,
+TC-SMOKE-008: All critical pages are accessible @smoke @p0,SUITE 10: Smoke Tests - Critical Path Verification,PASSED,1448,0,Stable,50,N/A,2,
+TC-008: Problem user inventory items are rendered @bug @p0,Problem User - TC-006 to TC-007,PASSED,1860,0,Stable,50,N/A,2,
+TC-BOUND-008: Empty postal code rejected @p1,SUITE 13: Boundary Value Tests,PASSED,1994,0,Stable,50,N/A,2,
+TC-LOCK-08: Username field is preserved after lockout for retry @p1,locked_out_user — Account Lockout Behavior (Correct),PASSED,1294,0,Stable,50,N/A,2,
+TC-EDGE-008: Cart badge updates correctly on add/remove @p1,SUITE 4: Edge Case Tests,PASSED,2137,0,Stable,50,N/A,2,
+TC-LOGIN-008: Invalid credentials are rejected @p1,SUITE 5: Login Flow Tests,PASSED,1265,0,Stable,50,N/A,2,
+TC-NEG-008: Checkout fails with empty postal code @p1,SUITE 7: Negative Input Validation Tests,PASSED,1506,0,Stable,50,N/A,2,
+TC-PROD-008: Products sorted by price high to low @p1,SUITE 3: Product Data Integrity Tests,PASSED,2274,0,Stable,50,N/A,2,
+TC-SEC-008: No sensitive data in console errors @security @p1,SUITE 8: Security Vulnerability Tests,PASSED,2666,0,Stable,50,N/A,2,
+TC-CART-008: visual_user cart shows correct prices despite wrong inventory display @bug @p2,SUITE 6: Cart Operations Tests,PASSED,1456,0,Stable,50,N/A,2,
+TC-CORNER-008: Multiple sequential checkout flows @p2,SUITE 14: Corner/Extreme Case Tests,PASSED,2473,0,Stable,50,N/A,2,
+TC-009: Performance user can login @critical @p0,Performance Glitch User - TC-009 to TC-010,PASSED,6592,0,Stable,50,N/A,2,
+TC-LOCK-09: Multiple lockout attempts show consistent error message @p1,locked_out_user — Account Lockout Behavior (Correct),PASSED,1536,0,Stable,50,N/A,2,
+TC-CART-009: Cart badge updates correctly on add and remove operations @p1,SUITE 6: Cart Operations Tests,PASSED,1614,0,Stable,50,N/A,2,
+TC-CORNER-009: New order without logout @p1,SUITE 14: Corner/Extreme Case Tests,PASSED,2388,0,Stable,50,N/A,2,
+TC-EXC-009: Checkout handles item removal during review @p1,SUITE 11: Exception/Error Handling Tests,PASSED,1457,0,Stable,50,N/A,2,
+TC-LOGIN-009: Empty credentials are rejected @p1,SUITE 5: Login Flow Tests,PASSED,1287,0,Stable,50,N/A,2,
+TC-SEC-009: No sensitive data in URL parameters @security @p1,SUITE 8: Security Vulnerability Tests,PASSED,1276,0,Stable,50,N/A,2,
+TC-SMOKE-009: Product sorting works @smoke @p1,SUITE 10: Smoke Tests - Critical Path Verification,PASSED,2260,0,Stable,50,N/A,2,
+TC-BOUND-009: Special characters in first name handled @p2,SUITE 13: Boundary Value Tests,PASSED,1770,0,Stable,50,N/A,2,
+TC-NEG-009: Special characters in name are handled @p2,SUITE 7: Negative Input Validation Tests,PASSED,1371,0,Stable,50,N/A,2,
+TC-CART-010: Complete checkout flow from cart succeeds @critical @p0,SUITE 6: Cart Operations Tests,PASSED,1458,0,Stable,50,N/A,2,
+TC-INT-010: Logout during checkout redirects to login @integration @p0,SUITE 12: Integration Tests - Full Order Lifecycle,FAILED,7307,0,Stable,100,2026-04-30T14:13:41.800Z,2,"Error: [2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m failed
+
+Expected pattern: [32m/index|login/i[39m
+Received string:  [31m""https://www.saucedemo.com/""[39m
+Timeout: 5000ms
+
+Call log:
+[2m  - Expect ""toHaveURL"" with timeout 5000ms[22m
+[2m    9 × unexpected value ""https://www.saucedemo.com/""[22m
+"
+TC-SEC-010: Cannot skip checkout step one @security @p0,SUITE 8: Security Vulnerability Tests,FAILED,1473,0,Stable,100,2026-04-30T14:14:26.895Z,2,"Error: [2mexpect([22m[31mreceived[39m[2m).[22mnot[2m.[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: not [32m""/checkout-step-two.html""[39m"
+TC-SMOKE-010: Cart total calculation is correct @smoke @p0,SUITE 10: Smoke Tests - Critical Path Verification,PASSED,1259,0,Stable,50,N/A,2,
+TC-010: Performance user experiences slow page load @performance @p0,Performance Glitch User - TC-009 to TC-010,PASSED,7395,0,Stable,50,N/A,2,
+TC-LOCK-10: Lockout is server-side — valid password still blocked @p1,locked_out_user — Account Lockout Behavior (Correct),PASSED,1291,0,Stable,50,N/A,2,
+TC-EXC-010: Order completion shows success message @p1,SUITE 11: Exception/Error Handling Tests,PASSED,1808,0,Stable,50,N/A,2,
+TC-BOUND-010: Numbers in name fields handled @p2,SUITE 13: Boundary Value Tests,PASSED,1662,0,Stable,50,N/A,2,
+TC-CORNER-010: Sorting works for all user types @p2,SUITE 14: Corner/Extreme Case Tests,FAILED,3395,0,Stable,100,2026-04-30T14:13:09.430Z,2,"Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32mtrue[39m
+Received: [31mfalse[39m"
+TC-010: Login using auth fixture @p2,Fixtures Demo Suite - TC-010 to TC-016,PASSED,1197,0,Stable,50,N/A,2,
+TC-NEG-010: SQL injection in username is rejected @p2,SUITE 7: Negative Input Validation Tests,PASSED,1158,0,Stable,50,N/A,2,
+TC-PERF-010: problem_user performance is acceptable @performance @p2,SUITE 9: Performance Tests,PASSED,2029,0,Stable,50,N/A,2,
+TC-CART-011a: standard_user - cart checkout flow @critical @p0,SUITE 6: Cart Operations Tests,PASSED,1463,0,Stable,50,N/A,2,
+TC-CART-011c: error_user - cart checkout flow @critical @p0,SUITE 6: Cart Operations Tests,PASSED,1330,0,Stable,50,N/A,2,
+TC-CART-011d: visual_user - cart checkout flow @critical @p0,SUITE 6: Cart Operations Tests,PASSED,1417,0,Stable,50,N/A,2,
+TC-CART-011e: performance_glitch_user - cart checkout flow @critical @p0,SUITE 6: Cart Operations Tests,PASSED,6352,0,Stable,50,N/A,2,
+TC-CART-011b: problem_user - cart checkout flow @critical @p0,SUITE 6: Cart Operations Tests,FAILED,6570,0,Stable,100,2026-04-30T14:12:52.265Z,2,"Error: [2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m failed
+
+Expected pattern: [32m/checkout-step-two\.html/[39m
+Received string:  [31m""https://www.saucedemo.com/checkout-step-one.html""[39m
+Timeout: 5000ms
+
+Call log:
+[2m  - Expect ""toHaveURL"" with timeout 5000ms[22m
+[2m    9 × unexpected value ""https://www.saucedemo.com/checkout-step-one.html""[22m
+"
+TC-INT-011: Back button returns to previous checkout step @integration @p0,SUITE 12: Integration Tests - Full Order Lifecycle,PASSED,1395,0,Stable,50,N/A,2,
+TC-SEC-011: Cannot access checkout step two without valid session @security @p0,SUITE 8: Security Vulnerability Tests,PASSED,2142,0,Stable,50,N/A,2,
+TC-011: Performance user inventory is functional despite slowness @performance @p0,Performance Glitch User - TC-009 to TC-010,PASSED,6534,0,Stable,50,N/A,2,
+TC-LOCK-11: Error container has correct data-test attribute @p1,locked_out_user — Account Lockout Behavior (Correct),PASSED,1389,0,Stable,50,N/A,2,
+TC-CORNER-011: All user types complete checkout successfully @p1,SUITE 14: Corner/Extreme Case Tests,PASSED,2106,0,Stable,50,N/A,2,
+TC-EXC-011: error_user checkout flow handles errors @p1,SUITE 11: Exception/Error Handling Tests,PASSED,1525,0,Stable,50,N/A,2,
+TC-SMOKE-011: Cart badge shows correct count @smoke @p1,SUITE 10: Smoke Tests - Critical Path Verification,PASSED,2551,0,Stable,50,N/A,2,
+TC-BOUND-011: problem_user checkout with edge values @p2,SUITE 13: Boundary Value Tests,PASSED,1726,0,Stable,50,N/A,2,
+TC-011: Access auth state @p2,Fixtures Demo Suite - TC-010 to TC-016,PASSED,2,0,Stable,0,N/A,2,
+TC-NEG-011: HTML in checkout first name is handled @p2,SUITE 7: Negative Input Validation Tests,PASSED,1490,0,Stable,50,N/A,2,
+TC-PERF-011: error_user performance is acceptable @performance @p2,SUITE 9: Performance Tests,PASSED,2150,0,Stable,50,N/A,2,
+TC-INT-012: Cart items persist during navigation @integration @p0,SUITE 12: Integration Tests - Full Order Lifecycle,PASSED,2842,0,Stable,50,N/A,2,
+TC-012: Error user can login @critical @p0,Error User - TC-012 to TC-013,PASSED,3315,0,Stable,50,N/A,2,
+TC-LOCK-12: Locked out user cannot access inventory via direct URL @p1,locked_out_user — Account Lockout Behavior (Correct),PASSED,2031,0,Stable,50,N/A,2,
+TC-CART-012: Adding same item twice increments badge count @p1,SUITE 6: Cart Operations Tests,FAILED,12231,0,Stable,100,2026-04-30T14:12:59.098Z,2,"TimeoutError: locator.click: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('[data-test=""inventory-item""]').filter({ hasText: 'Sauce Labs Backpack' }).locator('button').filter({ hasText: 'Add to cart' })[22m
+"
+TC-EXC-012: performance_glitch_user login handles delay @p1,SUITE 11: Exception/Error Handling Tests,PASSED,7191,0,Stable,50,N/A,2,
+TC-SMOKE-012: Remove from cart works @smoke @p1,SUITE 10: Smoke Tests - Critical Path Verification,PASSED,1182,0,Stable,50,N/A,2,
+TC-BOUND-012: visual_user checkout with edge values @p2,SUITE 13: Boundary Value Tests,PASSED,1689,0,Stable,50,N/A,2,
+TC-CORNER-012: Username case sensitivity @p2,SUITE 14: Corner/Extreme Case Tests,PASSED,2184,0,Stable,50,N/A,2,
+TC-012: Load test data from Excel @p2,Fixtures Demo Suite - TC-010 to TC-016,PASSED,3,0,Stable,0,N/A,2,
+TC-NEG-012: Unicode in postal code is handled @p2,SUITE 7: Negative Input Validation Tests,PASSED,1584,0,Stable,50,N/A,2,
+TC-PERF-012: visual_user performance is acceptable @performance @p2,SUITE 9: Performance Tests,PASSED,2169,0,Stable,50,N/A,2,
+TC-SEC-012: Product names are escaped @security @p2,SUITE 8: Security Vulnerability Tests,PASSED,2040,0,Stable,50,N/A,2,
+TC-INT-013: error_user checkout handles errors @integration @p0,SUITE 12: Integration Tests - Full Order Lifecycle,PASSED,1451,0,Stable,50,N/A,2,
+TC-013: Error user does not cause white screen of death @bug @p0,Error User - TC-012 to TC-013,PASSED,3818,0,Stable,50,N/A,2,
+TC-EXC-013: Post-checkout navigation works @p1,SUITE 11: Exception/Error Handling Tests,PASSED,2285,0,Stable,50,N/A,2,
+TC-NEG-013: problem_user checkout handles validation correctly @p1,SUITE 7: Negative Input Validation Tests,PASSED,1479,0,Stable,50,N/A,2,
+TC-PERF-001: Login page loads within 3 seconds @p1,SUITE 9: Performance Tests,PASSED,1056,0,Stable,50,N/A,2,
+TC-SEC-013: Locked out user has no access @security @p1,SUITE 8: Security Vulnerability Tests,PASSED,1112,0,Stable,50,N/A,2,
+TC-BOUND-013: error_user checkout with edge values @p2,SUITE 13: Boundary Value Tests,PASSED,1940,0,Stable,50,N/A,2,
+TC-CORNER-013: Adding same item twice increments quantity @p2,SUITE 14: Corner/Extreme Case Tests,FAILED,12409,0,Stable,100,2026-04-30T14:13:20.560Z,2,"TimeoutError: locator.click: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('[data-test=""inventory-item""]').filter({ hasText: 'Sauce Labs Backpack' }).locator('button').filter({ hasText: 'Add to cart' })[22m
+"
+TC-013: Get specific record @p2,Fixtures Demo Suite - TC-010 to TC-016,PASSED,1,0,Stable,0,N/A,2,
+TC-PERF-013: locked_out_user error response is fast @performance @p2,SUITE 9: Performance Tests,PASSED,1613,0,Stable,50,N/A,2,
+TC-INT-014: performance_glitch_user checkout completes @integration @p0,SUITE 12: Integration Tests - Full Order Lifecycle,PASSED,6463,0,Stable,50,N/A,2,
+TC-014: Error user app handles gracefully @bug @p0,Error User - TC-012 to TC-013,PASSED,4018,0,Stable,50,N/A,2,
+TC-EXC-014: Locked out user shows specific error @p1,SUITE 11: Exception/Error Handling Tests,PASSED,1153,0,Stable,50,N/A,2,
+TC-NEG-014: error_user checkout validation works @p1,SUITE 7: Negative Input Validation Tests,PASSED,1564,0,Stable,50,N/A,2,
+TC-SEC-014: error_user cannot bypass auth @security @p1,SUITE 8: Security Vulnerability Tests,PASSED,1034,0,Stable,50,N/A,2,
+TC-BOUND-014: performance_glitch_user checkout with edge values @p2,SUITE 13: Boundary Value Tests,PASSED,6834,0,Stable,50,N/A,2,
+TC-014: Check feature flag value @p2,Fixtures Demo Suite - TC-010 to TC-016,PASSED,1,0,Stable,0,N/A,2,
+TC-INT-015: Sort order does not affect checkout @integration @p0,SUITE 12: Integration Tests - Full Order Lifecycle,PASSED,1405,0,Stable,50,N/A,2,
+TC-015: Visual user can login @critical @p0,Visual User - TC-015 to TC-016,PASSED,2092,0,Stable,50,N/A,2,
+TC-NEG-015: visual_user checkout validation works @p1,SUITE 7: Negative Input Validation Tests,PASSED,1543,0,Stable,50,N/A,2,
+TC-SEC-015: visual_user logout invalidates session @security @p1,SUITE 8: Security Vulnerability Tests,PASSED,2325,0,Stable,50,N/A,2,
+TC-015: Clear flag overrides @p2,Fixtures Demo Suite - TC-010 to TC-016,PASSED,0,0,Stable,0,N/A,2,
+TC-EXC-015: Invalid URL parameters handled gracefully @p2,SUITE 11: Exception/Error Handling Tests,PASSED,2193,0,Stable,50,N/A,2,
+TC-PERF-015: Product page navigation is smooth @performance @p2,SUITE 9: Performance Tests,PASSED,4675,0,Stable,50,N/A,2,
+TC-016: Visual user captures baseline screenshots for VRT @bug @p0,Visual User - TC-015 to TC-016,PASSED,12663,0,Stable,50,N/A,2,
+TC-NEG-016: performance_glitch_user checkout validation works @p1,SUITE 7: Negative Input Validation Tests,PASSED,6558,0,Stable,50,N/A,2,
+TC-SEC-016: performance_glitch_user logout invalidates session @security @p1,SUITE 8: Security Vulnerability Tests,PASSED,7199,0,Stable,50,N/A,2,
+TC-016: Capture screenshot for VRT @p2,Fixtures Demo Suite - TC-010 to TC-016,PASSED,1047,0,Stable,50,N/A,2,
+TC-017: Visual user baseline - login page @bug @p0,Visual User - TC-015 to TC-016,PASSED,1362,0,Stable,50,N/A,2,
+TC-NEG-017: Empty cart checkout button is disabled or redirects @p1,SUITE 7: Negative Input Validation Tests,FAILED,1442,0,Stable,100,2026-04-30T14:13:59.903Z,2,"Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32mfalse[39m
+Received: [31mtrue[39m"
+TC-SEC-017: problem_user logout invalidates session @security @p1,SUITE 8: Security Vulnerability Tests,PASSED,2115,0,Stable,50,N/A,2,
+TC-018: Visual user baseline - cart page @bug @p0,Visual User - TC-015 to TC-016,PASSED,2822,0,Stable,50,N/A,2,
+TC-SEC-018: No HttpOnly cookie manipulation possible @security @p1,SUITE 8: Security Vulnerability Tests,FAILED,2338,0,Stable,100,2026-04-30T14:14:34.232Z,2,"Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32mtrue[39m
+Received: [31mfalse[39m"
+TC-019: Database connection validation @p2,Fixtures Demo Suite - TC-019 to TC-020,SKIPPED,1,0,Stable,0,N/A,0,
+TC-021: Login with valid user via DDT @p2,Fixtures Demo Suite - TC-021 to TC-022,PASSED,1193,0,Stable,50,N/A,2,
+TC-022: Login with locked_out_user via DDT @p2,Fixtures Demo Suite - TC-021 to TC-022,PASSED,1102,0,Stable,50,N/A,2,
+TC-PERF-002: Inventory page loads within 5 seconds after login @performance @p1,SUITE 9: Performance Tests,PASSED,2100,0,Stable,50,N/A,2,
+TC-BOUND-003: Minimum postal code (1 digit) handled @p2,SUITE 13: Boundary Value Tests,PASSED,2294,0,Stable,50,N/A,2,
+TC-CART-003: Add all 6 products to cart shows correct count @critical @p0,SUITE 6: Cart Operations Tests,PASSED,1695,0,Stable,50,N/A,2,
+TC-SMOKE-003: Inventory shows all 6 products @smoke @p0,SUITE 10: Smoke Tests - Critical Path Verification,PASSED,2048,0,Stable,50,N/A,2,
+TC-CALC-003: Tax equals 8% of subtotal @critical @p0,SUITE 1: Checkout Price Calculation Tests,PASSED,1431,0,Stable,50,N/A,2,
+TC-PERF-004: standard_user login completes in under 1 second @performance @p1,SUITE 9: Performance Tests,PASSED,2068,0,Stable,50,N/A,2,
+TC-PERF-005: Cart page loads within 3 seconds @performance @p1,SUITE 9: Performance Tests,PASSED,1306,0,Stable,50,N/A,2,
+TC-BOUND-005: ZIP+4 format postal code handled @p2,SUITE 13: Boundary Value Tests,PASSED,2006,0,Stable,50,N/A,2,
+TC-INT-005: All 6 products ordered successfully @integration @p0,SUITE 12: Integration Tests - Full Order Lifecycle,PASSED,1838,0,Stable,50,N/A,2,
+TC-PERF-006: Checkout page loads within 3 seconds @performance @p1,SUITE 9: Performance Tests,PASSED,1563,0,Stable,50,N/A,2,
+TC-PERF-007: Product detail page loads within 3 seconds @performance @p1,SUITE 9: Performance Tests,PASSED,1504,0,Stable,50,N/A,2,
+TC-EDGE-007: All 6 products can be added to cart @p1,SUITE 4: Edge Case Tests,PASSED,2198,0,Stable,50,N/A,2,
+TC-INT-007: Tax calculation is correct 8% @integration @p0,SUITE 12: Integration Tests - Full Order Lifecycle,PASSED,1621,0,Stable,50,N/A,2,
+TC-PERF-008: Sorting completes within 2 seconds @performance @p2,SUITE 9: Performance Tests,PASSED,3552,0,Stable,50,N/A,2,
+TC-BUG-001-01: problem_user can login and reach inventory @bug @p0,BUG-001: problem_user — Checkout Overview Pricing Bug,PASSED,2324,0,Stable,50,N/A,2,
+TC-BUG-001-03: Checkout subtotal equals cart item sum @bug @p2,BUG-001: problem_user — Checkout Overview Pricing Bug,FAILED,6720,0,Stable,100,2026-04-30T14:12:22.676Z,2,"Error: [2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m failed
+
+Expected pattern: [32m/checkout-step-two\.html/[39m
+Received string:  [31m""https://www.saucedemo.com/checkout-step-one.html""[39m
+Timeout: 5000ms
+
+Call log:
+[2m  - Expect ""toHaveURL"" with timeout 5000ms[22m
+[2m    9 × unexpected value ""https://www.saucedemo.com/checkout-step-one.html""[22m
+"
+TC-BUG-001-05: Total equals subtotal plus tax @bug @p2,BUG-001: problem_user — Checkout Overview Pricing Bug,FAILED,6377,0,Stable,100,2026-04-30T14:12:24.131Z,2,"Error: [2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m failed
+
+Expected pattern: [32m/checkout-step-two\.html/[39m
+Received string:  [31m""https://www.saucedemo.com/checkout-step-one.html""[39m
+Timeout: 5000ms
+
+Call log:
+[2m  - Expect ""toHaveURL"" with timeout 5000ms[22m
+[2m    9 × unexpected value ""https://www.saucedemo.com/checkout-step-one.html""[22m
+"
+TC-LOGIN-010: All 6 users have correct login behavior @critical @p0,SUITE 5: Login Flow Tests,PASSED,11478,0,Stable,50,N/A,2,
+TC-BUG-001-07: Cart item prices are correct; subtotal is doubled @bug @p2,BUG-001: problem_user — Checkout Overview Pricing Bug,FAILED,6829,0,Stable,100,2026-04-30T14:12:30.774Z,2,"Error: [2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m failed
+
+Expected pattern: [32m/checkout-step-two\.html/[39m
+Received string:  [31m""https://www.saucedemo.com/checkout-step-one.html""[39m
+Timeout: 5000ms
+
+Call log:
+[2m  - Expect ""toHaveURL"" with timeout 5000ms[22m
+[2m    9 × unexpected value ""https://www.saucedemo.com/checkout-step-one.html""[22m
+"
+TC-BUG-001-09: Checkout completion works despite pricing bug @bug @critical @p0,BUG-001: problem_user — Checkout Overview Pricing Bug,FAILED,6470,0,Stable,100,2026-04-30T14:12:35.832Z,2,"Error: [2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m failed
+
+Expected pattern: [32m/checkout-step-two\.html/[39m
+Received string:  [31m""https://www.saucedemo.com/checkout-step-one.html""[39m
+Timeout: 5000ms
+
+Call log:
+[2m  - Expect ""toHaveURL"" with timeout 5000ms[22m
+[2m    9 × unexpected value ""https://www.saucedemo.com/checkout-step-one.html""[22m
+"
+TC-PROD-002: error_user product detail shows render error (BUG-002) @bug,SUITE 3: Product Data Integrity Tests,PASSED,5735,0,Stable,50,N/A,2,
+TC-PRICE-002: visual_user inventory price differs from cart price (BUG-003b) @bug,SUITE 2: Price Consistency Tests,PASSED,1717,0,Stable,50,N/A,2,
+TC-BUG-002-01: error_user can login successfully @bug @p0,BUG-002: error_user — Product Detail Page Render Error,PASSED,2681,0,Stable,50,N/A,2,
+TC-BUG-002-03: Clicking product name navigates to product detail page @bug @p0,BUG-002: error_user — Product Detail Page Render Error,PASSED,1267,0,Stable,50,N/A,2,
+TC-020: S3 operations validation @p2,Fixtures Demo Suite - TC-019 to TC-020,SKIPPED,1,0,Stable,0,N/A,0,
+TC-BUG-002-04: Product detail description shows render error @bug @p2,BUG-002: error_user — Product Detail Page Render Error,PASSED,1646,0,Stable,50,N/A,2,
+TC-BUG-002-05: Product name and price are displayed correctly despite description bug @bug @p0,BUG-002: error_user — Product Detail Page Render Error,PASSED,1552,0,Stable,50,N/A,2,
+TC-BUG-002-06: Add to Cart button works on product detail page @bug @critical @p0,BUG-002: error_user — Product Detail Page Render Error,PASSED,1655,0,Stable,50,N/A,2,
+TC-BUG-002-07: Render error appears on all product detail pages @bug @p2,BUG-002: error_user — Product Detail Page Render Error,PASSED,3025,0,Stable,50,N/A,2,
+TC-PROD-003: visual_user has broken image (BUG-003a) @bug,SUITE 3: Product Data Integrity Tests,FAILED,3741,0,Stable,100,2026-04-30T14:14:18.380Z,2,"Error: BUG-003a: visual_user should have at least 1 broken image
+
+[2mexpect([22m[31mreceived[39m[2m).[22mtoBeGreaterThanOrEqual[2m([22m[32mexpected[39m[2m)[22m
+
+Expected: >= [32m1[39m
+Received:    [31m0[39m"
+TC-BUG-003-01: visual_user can login successfully @bug @p0,BUG-003: visual_user — Broken Image + Wrong Display Prices,PASSED,2129,0,Stable,50,N/A,2,
+TC-BUG-003c-01: Cart page shows correct prices (inventory bug does not affect cart) @bug @critical @p0,BUG-003: visual_user — Broken Image + Wrong Display Prices,PASSED,1480,0,Stable,50,N/A,2,
+TC-BUG-003b-01: Inventory display prices differ from expected prices @bug @p2,BUG-003: visual_user — Broken Image + Wrong Display Prices,PASSED,2133,0,Stable,50,N/A,2,
+TC-BUG-003a-01: Broken image exists on inventory page @bug @p2,BUG-003: visual_user — Broken Image + Wrong Display Prices,FAILED,3951,0,Stable,100,2026-04-30T14:12:36.894Z,2,"Error: BUG-003a: At least 1 broken image expected for visual_user
+
+[2mexpect([22m[31mreceived[39m[2m).[22mtoBeGreaterThanOrEqual[2m([22m[32mexpected[39m[2m)[22m
+
+Expected: >= [32m1[39m
+Received:    [31m0[39m"
+TC-BUG-003c-02: Checkout overview shows correct prices (not inventory display prices) @bug @critical @p0,BUG-003: visual_user — Broken Image + Wrong Display Prices,PASSED,1481,0,Stable,50,N/A,2,
+TC-BUG-003b-03: Known incorrect prices match documented bug values @bug @p2,BUG-003: visual_user — Broken Image + Wrong Display Prices,FAILED,2413,0,Stable,100,2026-04-30T14:12:38.332Z,2,"Error: BUG-003b: Known incorrect prices should match documented bug values
+
+[2mexpect([22m[31mreceived[39m[2m).[22mtoBeGreaterThanOrEqual[2m([22m[32mexpected[39m[2m)[22m
+
+Expected: >= [32m1[39m
+Received:    [31m0[39m"
+TC-BUG-004-01: performance_glitch_user can login successfully @bug @p0,BUG-004: performance_glitch_user — Login Performance Delay,PASSED,7345,0,Stable,50,N/A,2,
+TC-BUG-004-04: Inventory and cart work correctly after slow login @bug @critical @p0,BUG-004: performance_glitch_user — Login Performance Delay,PASSED,6442,0,Stable,50,N/A,2,
+TC-BUG-004-06: Compare login time vs standard_user baseline @bug @p0,BUG-004: performance_glitch_user — Login Performance Delay,PASSED,8206,0,Stable,50,N/A,2,
+TC-BUG-004-07: Login delay is consistent across multiple attempts @bug @critical @p0,BUG-004: performance_glitch_user — Login Performance Delay,PASSED,19390,0,Stable,50,N/A,2,
+TC-PRICE-005: visual_user inventory shows wrong prices (BUG-003b) @bug,SUITE 2: Price Consistency Tests,PASSED,2597,0,Stable,50,N/A,2,
+TC-PROD-009: error_user shows render error on all product details (BUG-002),SUITE 3: Product Data Integrity Tests,PASSED,2545,0,Stable,50,N/A,2,
+TC-BUG-001-02: Adding single item updates cart badge to 1 @bug @p2,BUG-001: problem_user — Checkout Overview Pricing Bug,PASSED,2248,0,Stable,50,N/A,2,
+TC-BUG-001-04: Tax equals subtotal × 8% @bug @p2,BUG-001: problem_user — Checkout Overview Pricing Bug,FAILED,6417,0,Stable,100,2026-04-30T14:12:22.840Z,2,"Error: [2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m failed
+
+Expected pattern: [32m/checkout-step-two\.html/[39m
+Received string:  [31m""https://www.saucedemo.com/checkout-step-one.html""[39m
+Timeout: 5000ms
+
+Call log:
+[2m  - Expect ""toHaveURL"" with timeout 5000ms[22m
+[2m    9 × unexpected value ""https://www.saucedemo.com/checkout-step-one.html""[22m
+"
+TC-BUG-001-08: Multiple items — subtotal is still 2x @bug @p2,BUG-001: problem_user — Checkout Overview Pricing Bug,FAILED,6601,0,Stable,100,2026-04-30T14:12:31.717Z,2,"Error: [2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m failed
+
+Expected pattern: [32m/checkout-step-two\.html/[39m
+Received string:  [31m""https://www.saucedemo.com/checkout-step-one.html""[39m
+Timeout: 5000ms
+
+Call log:
+[2m  - Expect ""toHaveURL"" with timeout 5000ms[22m
+[2m    9 × unexpected value ""https://www.saucedemo.com/checkout-step-one.html""[22m
+"
+TC-PERF-014: Complete checkout flow under 10 seconds @performance @p2,SUITE 9: Performance Tests,PASSED,1374,0,Stable,50,N/A,2,
+TC-BUG-002-02: error_user sees all 6 products in inventory @bug @p0,BUG-002: error_user — Product Detail Page Render Error,PASSED,2775,0,Stable,50,N/A,2,
+TC-BUG-003-02: visual_user sees all 6 products in inventory @bug @p0,BUG-003: visual_user — Broken Image + Wrong Display Prices,PASSED,2196,0,Stable,50,N/A,2,
+TC-CALC-005: problem_user subtotal should NOT be doubled (BUG-001 regression) @bug @critical @p0,SUITE 1: Checkout Price Calculation Tests,FAILED,6558,0,Stable,100,2026-04-30T14:12:58.535Z,2,"Error: [2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m failed
+
+Expected pattern: [32m/checkout-step-two\.html/[39m
+Received string:  [31m""https://www.saucedemo.com/checkout-step-one.html""[39m
+Timeout: 5000ms
+
+Call log:
+[2m  - Expect ""toHaveURL"" with timeout 5000ms[22m
+[2m    9 × unexpected value ""https://www.saucedemo.com/checkout-step-one.html""[22m
+"
+TC-CART-007: problem_user cart item prices are correct (BUG-001 partial) @bug @p2,SUITE 6: Cart Operations Tests,PASSED,1385,0,Stable,50,N/A,2,
+TC-INT-008: problem_user completes checkout (BUG-001 possible double-charge) @bug @integration @p0,SUITE 12: Integration Tests - Full Order Lifecycle,FAILED,6428,0,Stable,100,2026-04-30T14:13:41.719Z,2,"Error: [2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m failed
+
+Expected pattern: [32m/checkout-step-two\.html/[39m
+Received string:  [31m""https://www.saucedemo.com/checkout-step-one.html""[39m
+Timeout: 5000ms
+
+Call log:
+[2m  - Expect ""toHaveURL"" with timeout 5000ms[22m
+[2m    9 × unexpected value ""https://www.saucedemo.com/checkout-step-one.html""[22m
+"
+TC-INT-009: visual_user completes checkout (BUG-003b cart prices correct) @bug @integration @p0,SUITE 12: Integration Tests - Full Order Lifecycle,PASSED,1445,0,Stable,50,N/A,2,
+TC-PERF-009: Add to cart is instant (<500ms) @performance @p2,SUITE 9: Performance Tests,PASSED,4458,0,Stable,50,N/A,2,
+TC-PERF-003: performance_glitch_user login has 2-second delay (BUG-004) @performance @bug @p0,SUITE 9: Performance Tests,PASSED,7206,0,Stable,50,N/A,2,
+TC-LOGIN-007: performance_glitch_user has 2-second login delay (BUG-004) @bug @p2,SUITE 5: Login Flow Tests,PASSED,7003,0,Stable,50,N/A,2,
+TC-BUG-001-06: Document full pricing bug state for BUG-001 report @bug @p2,BUG-001: problem_user — Checkout Overview Pricing Bug,FAILED,6667,0,Stable,100,2026-04-30T14:12:30.147Z,2,"Error: [2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m failed
+
+Expected pattern: [32m/checkout-step-two\.html/[39m
+Received string:  [31m""https://www.saucedemo.com/checkout-step-one.html""[39m
+Timeout: 5000ms
+
+Call log:
+[2m  - Expect ""toHaveURL"" with timeout 5000ms[22m
+[2m    9 × unexpected value ""https://www.saucedemo.com/checkout-step-one.html""[22m
+"
+TC-BUG-002-08: Document full bug evidence for BUG-002 @bug @p2,BUG-002: error_user — Product Detail Page Render Error,PASSED,5952,0,Stable,50,N/A,2,
+TC-BUG-003a-02: Sauce Labs Backpack image is broken (sl-404.jpg) @bug @p2,BUG-003: visual_user — Broken Image + Wrong Display Prices,PASSED,2074,0,Stable,50,N/A,2,
+TC-BUG-003-99: Document full BUG-003 evidence @bug @p2,BUG-003: visual_user — Broken Image + Wrong Display Prices,PASSED,3695,0,Stable,50,N/A,2,
+TC-BUG-004-05: Capture performance metrics for BUG-004 @bug @p2,BUG-004: performance_glitch_user — Login Performance Delay,PASSED,7311,0,Stable,50,N/A,2,
+TC-PROD-010: visual_user backpack image is sl-404.jpg (BUG-003a),SUITE 3: Product Data Integrity Tests,PASSED,2132,0,Stable,50,N/A,2,
+TC-BUG-004-02: Login takes at least 2000ms (intentional delay present) @bug @p2,BUG-004: performance_glitch_user — Login Performance Delay,PASSED,7240,0,Stable,50,N/A,2,
+TC-BUG-004-03: Login completes within 5000ms threshold (no regression) @bug @p2,BUG-004: performance_glitch_user — Login Performance Delay,FAILED,7480,0,Stable,100,2026-04-30T14:12:10.409Z,2,"Error: Login should complete within 5000ms threshold
+
+[2mexpect([22m[31mreceived[39m[2m).[22mtoBeLessThanOrEqual[2m([22m[32mexpected[39m[2m)[22m
+
+Expected: <= [32m5000[39m
+Received:    [31m6226[39m"
+TC-BUG-003b-02: Sauce Labs Backpack price is $27.25 instead of $29.99 @bug @p2,BUG-003: visual_user — Broken Image + Wrong Display Prices,FAILED,2419,0,Stable,100,2026-04-30T14:12:37.984Z,2,"Error: BUG-003b: Backpack should show wrong price ($27.25) for visual_user
+
+[2mexpect([22m[31mreceived[39m[2m).[22mtoBeCloseTo[2m([22m[32mexpected[39m[2m, [22mprecision[2m)[22m
+
+Expected: [32m27.25[39m
+Received: [31m27.94[39m
+
+Expected precision:    2
+Expected difference: < [32m0.005[39m
+Received difference:   [31m0.6900000000000013[39m"

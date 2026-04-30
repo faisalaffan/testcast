@@ -1,0 +1,2290 @@
+{
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/boundary/BoundaryValueTests.spec.ts::TC-BOUND-001: Single character first name accepted @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/boundary/BoundaryValueTests.spec.ts::TC-BOUND-001: Single character first name accepted @p2",
+    "name": "TC-BOUND-001: Single character first name accepted @p2",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:11:47.145Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/boundary/BoundaryValueTests.spec.ts::TC-BOUND-003: Minimum postal code (1 digit) handled @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/boundary/BoundaryValueTests.spec.ts::TC-BOUND-003: Minimum postal code (1 digit) handled @p2",
+    "name": "TC-BOUND-003: Minimum postal code (1 digit) handled @p2",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:11:47.164Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/boundary/BoundaryValueTests.spec.ts::TC-BOUND-004: Maximum postal code length handled @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/boundary/BoundaryValueTests.spec.ts::TC-BOUND-004: Maximum postal code length handled @p2",
+    "name": "TC-BOUND-004: Maximum postal code length handled @p2",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:11:47.191Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/boundary/BoundaryValueTests.spec.ts::TC-BOUND-002: Very long first name handled @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/boundary/BoundaryValueTests.spec.ts::TC-BOUND-002: Very long first name handled @p2",
+    "name": "TC-BOUND-002: Very long first name handled @p2",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:11:47.124Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/boundary/BoundaryValueTests.spec.ts::TC-BOUND-006: Empty first name rejected @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/boundary/BoundaryValueTests.spec.ts::TC-BOUND-006: Empty first name rejected @p1",
+    "name": "TC-BOUND-006: Empty first name rejected @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:11:49.199Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/boundary/BoundaryValueTests.spec.ts::TC-BOUND-008: Empty postal code rejected @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/boundary/BoundaryValueTests.spec.ts::TC-BOUND-008: Empty postal code rejected @p1",
+    "name": "TC-BOUND-008: Empty postal code rejected @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:11:49.216Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/boundary/BoundaryValueTests.spec.ts::TC-BOUND-007: Empty last name rejected @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/boundary/BoundaryValueTests.spec.ts::TC-BOUND-007: Empty last name rejected @p1",
+    "name": "TC-BOUND-007: Empty last name rejected @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:11:49.232Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/boundary/BoundaryValueTests.spec.ts::TC-BOUND-005: ZIP+4 format postal code handled @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/boundary/BoundaryValueTests.spec.ts::TC-BOUND-005: ZIP+4 format postal code handled @p2",
+    "name": "TC-BOUND-005: ZIP+4 format postal code handled @p2",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:11:49.163Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/boundary/BoundaryValueTests.spec.ts::TC-BOUND-012: visual_user checkout with edge values @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/boundary/BoundaryValueTests.spec.ts::TC-BOUND-012: visual_user checkout with edge values @p2",
+    "name": "TC-BOUND-012: visual_user checkout with edge values @p2",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:11:50.931Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/boundary/BoundaryValueTests.spec.ts::TC-BOUND-011: problem_user checkout with edge values @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/boundary/BoundaryValueTests.spec.ts::TC-BOUND-011: problem_user checkout with edge values @p2",
+    "name": "TC-BOUND-011: problem_user checkout with edge values @p2",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:11:50.968Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/boundary/BoundaryValueTests.spec.ts::TC-BOUND-009: Special characters in first name handled @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/boundary/BoundaryValueTests.spec.ts::TC-BOUND-009: Special characters in first name handled @p2",
+    "name": "TC-BOUND-009: Special characters in first name handled @p2",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:11:50.953Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/boundary/BoundaryValueTests.spec.ts::TC-BOUND-010: Numbers in name fields handled @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/boundary/BoundaryValueTests.spec.ts::TC-BOUND-010: Numbers in name fields handled @p2",
+    "name": "TC-BOUND-010: Numbers in name fields handled @p2",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:11:50.898Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/boundary/BoundaryValueTests.spec.ts::TC-BOUND-013: error_user checkout with edge values @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/boundary/BoundaryValueTests.spec.ts::TC-BOUND-013: error_user checkout with edge values @p2",
+    "name": "TC-BOUND-013: error_user checkout with edge values @p2",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:11:52.861Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/boundary/BoundaryValueTests.spec.ts::TC-BOUND-014: performance_glitch_user checkout with edge values @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/boundary/BoundaryValueTests.spec.ts::TC-BOUND-014: performance_glitch_user checkout with edge values @p2",
+    "name": "TC-BOUND-014: performance_glitch_user checkout with edge values @p2",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:11:57.786Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/error-user-productdetail-bug.spec.ts::TC-BUG-002-02: error_user sees all 6 products in inventory @bug @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/error-user-productdetail-bug.spec.ts::TC-BUG-002-02: error_user sees all 6 products in inventory @bug @p0",
+    "name": "TC-BUG-002-02: error_user sees all 6 products in inventory @bug @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:11:53.766Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/error-user-productdetail-bug.spec.ts::TC-BUG-002-01: error_user can login successfully @bug @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/error-user-productdetail-bug.spec.ts::TC-BUG-002-01: error_user can login successfully @bug @p0",
+    "name": "TC-BUG-002-01: error_user can login successfully @bug @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:11:53.660Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/error-user-productdetail-bug.spec.ts::TC-BUG-002-03: Clicking product name navigates to product detail page @bug @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/error-user-productdetail-bug.spec.ts::TC-BUG-002-03: Clicking product name navigates to product detail page @bug @p0",
+    "name": "TC-BUG-002-03: Clicking product name navigates to product detail page @bug @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:11:54.148Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/error-user-productdetail-bug.spec.ts::TC-BUG-002-06: Add to Cart button works on product detail page @bug @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/error-user-productdetail-bug.spec.ts::TC-BUG-002-06: Add to Cart button works on product detail page @bug @critical @p0",
+    "name": "TC-BUG-002-06: Add to Cart button works on product detail page @bug @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:11:55.812Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/error-user-productdetail-bug.spec.ts::TC-BUG-002-05: Product name and price are displayed correctly despite description bug @bug @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/error-user-productdetail-bug.spec.ts::TC-BUG-002-05: Product name and price are displayed correctly despite description bug @bug @p0",
+    "name": "TC-BUG-002-05: Product name and price are displayed correctly despite description bug @bug @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:11:55.341Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/error-user-productdetail-bug.spec.ts::TC-BUG-002-04: Product detail description shows render error @bug @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/error-user-productdetail-bug.spec.ts::TC-BUG-002-04: Product detail description shows render error @bug @p2",
+    "name": "TC-BUG-002-04: Product detail description shows render error @bug @p2",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:11:55.325Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/error-user-productdetail-bug.spec.ts::TC-BUG-002-08: Document full bug evidence for BUG-002 @bug @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/error-user-productdetail-bug.spec.ts::TC-BUG-002-08: Document full bug evidence for BUG-002 @bug @p2",
+    "name": "TC-BUG-002-08: Document full bug evidence for BUG-002 @bug @p2",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:12:01.316Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/error-user-productdetail-bug.spec.ts::TC-BUG-002-07: Render error appears on all product detail pages @bug @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/error-user-productdetail-bug.spec.ts::TC-BUG-002-07: Render error appears on all product detail pages @bug @p2",
+    "name": "TC-BUG-002-07: Render error appears on all product detail pages @bug @p2",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:11:58.382Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/locked-out-user.spec.ts::TC-LOCK-02: Error message contains \"locked\" keyword @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/locked-out-user.spec.ts::TC-LOCK-02: Error message contains \"locked\" keyword @p1",
+    "name": "TC-LOCK-02: Error message contains \"locked\" keyword @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:11:58.337Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/locked-out-user.spec.ts::TC-LOCK-01: locked_out_user login attempt shows error message @critical @smoke @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/locked-out-user.spec.ts::TC-LOCK-01: locked_out_user login attempt shows error message @critical @smoke @p1",
+    "name": "TC-LOCK-01: locked_out_user login attempt shows error message @critical @smoke @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:11:57.126Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/locked-out-user.spec.ts::TC-LOCK-03: Error message matches full expected lockout text @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/locked-out-user.spec.ts::TC-LOCK-03: Error message matches full expected lockout text @p1",
+    "name": "TC-LOCK-03: Error message matches full expected lockout text @p1",
+    "passedRuns": 0,
+    "failedRuns": 2,
+    "lastRun": "2026-04-30T14:11:59.123Z",
+    "lastStatus": "failed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/locked-out-user.spec.ts::TC-LOCK-05: User is NOT redirected to inventory after lockout @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/locked-out-user.spec.ts::TC-LOCK-05: User is NOT redirected to inventory after lockout @p1",
+    "name": "TC-LOCK-05: User is NOT redirected to inventory after lockout @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:12:00.039Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/locked-out-user.spec.ts::TC-LOCK-06: User remains on login page after lockout @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/locked-out-user.spec.ts::TC-LOCK-06: User remains on login page after lockout @p1",
+    "name": "TC-LOCK-06: User remains on login page after lockout @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:11:59.568Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/locked-out-user.spec.ts::TC-LOCK-07: No cart badge visible (user not authenticated) @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/locked-out-user.spec.ts::TC-LOCK-07: No cart badge visible (user not authenticated) @p1",
+    "name": "TC-LOCK-07: No cart badge visible (user not authenticated) @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:12:01.332Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/locked-out-user.spec.ts::TC-LOCK-10: Lockout is server-side — valid password still blocked @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/locked-out-user.spec.ts::TC-LOCK-10: Lockout is server-side — valid password still blocked @p1",
+    "name": "TC-LOCK-10: Lockout is server-side — valid password still blocked @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:12:02.174Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/locked-out-user.spec.ts::TC-LOCK-09: Multiple lockout attempts show consistent error message @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/locked-out-user.spec.ts::TC-LOCK-09: Multiple lockout attempts show consistent error message @p1",
+    "name": "TC-LOCK-09: Multiple lockout attempts show consistent error message @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:12:01.592Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/locked-out-user.spec.ts::TC-LOCK-08: Username field is preserved after lockout for retry @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/locked-out-user.spec.ts::TC-LOCK-08: Username field is preserved after lockout for retry @p1",
+    "name": "TC-LOCK-08: Username field is preserved after lockout for retry @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:12:00.870Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/locked-out-user.spec.ts::TC-LOCK-11: Error container has correct data-test attribute @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/locked-out-user.spec.ts::TC-LOCK-11: Error container has correct data-test attribute @p1",
+    "name": "TC-LOCK-11: Error container has correct data-test attribute @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:12:02.733Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/locked-out-user.spec.ts::TC-LOCK-12: Locked out user cannot access inventory via direct URL @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/locked-out-user.spec.ts::TC-LOCK-12: Locked out user cannot access inventory via direct URL @p1",
+    "name": "TC-LOCK-12: Locked out user cannot access inventory via direct URL @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:12:03.377Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/performance-glitch-login.spec.ts::TC-BUG-004-03: Login completes within 5000ms threshold (no regression) @bug @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/performance-glitch-login.spec.ts::TC-BUG-004-03: Login completes within 5000ms threshold (no regression) @bug @p2",
+    "name": "TC-BUG-004-03: Login completes within 5000ms threshold (no regression) @bug @p2",
+    "passedRuns": 0,
+    "failedRuns": 2,
+    "lastRun": "2026-04-30T14:12:10.409Z",
+    "lastStatus": "failed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/performance-glitch-login.spec.ts::TC-BUG-004-02: Login takes at least 2000ms (intentional delay present) @bug @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/performance-glitch-login.spec.ts::TC-BUG-004-02: Login takes at least 2000ms (intentional delay present) @bug @p2",
+    "name": "TC-BUG-004-02: Login takes at least 2000ms (intentional delay present) @bug @p2",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:12:09.429Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/performance-glitch-login.spec.ts::TC-BUG-004-01: performance_glitch_user can login successfully @bug @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/performance-glitch-login.spec.ts::TC-BUG-004-01: performance_glitch_user can login successfully @bug @p0",
+    "name": "TC-BUG-004-01: performance_glitch_user can login successfully @bug @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:12:08.951Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/performance-glitch-login.spec.ts::TC-BUG-004-07: Login delay is consistent across multiple attempts @bug @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/performance-glitch-login.spec.ts::TC-BUG-004-07: Login delay is consistent across multiple attempts @bug @critical @p0",
+    "name": "TC-BUG-004-07: Login delay is consistent across multiple attempts @bug @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:12:29.243Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/performance-glitch-login.spec.ts::TC-BUG-004-04: Inventory and cart work correctly after slow login @bug @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/performance-glitch-login.spec.ts::TC-BUG-004-04: Inventory and cart work correctly after slow login @bug @critical @p0",
+    "name": "TC-BUG-004-04: Inventory and cart work correctly after slow login @bug @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:12:09.842Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/performance-glitch-login.spec.ts::TC-BUG-004-05: Capture performance metrics for BUG-004 @bug @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/performance-glitch-login.spec.ts::TC-BUG-004-05: Capture performance metrics for BUG-004 @bug @p2",
+    "name": "TC-BUG-004-05: Capture performance metrics for BUG-004 @bug @p2",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:12:16.277Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/performance-glitch-login.spec.ts::TC-BUG-004-06: Compare login time vs standard_user baseline @bug @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/performance-glitch-login.spec.ts::TC-BUG-004-06: Compare login time vs standard_user baseline @bug @p0",
+    "name": "TC-BUG-004-06: Compare login time vs standard_user baseline @bug @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:12:17.644Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/problem-user-checkout-bug.spec.ts::TC-BUG-001-02: Adding single item updates cart badge to 1 @bug @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/problem-user-checkout-bug.spec.ts::TC-BUG-001-02: Adding single item updates cart badge to 1 @bug @p2",
+    "name": "TC-BUG-001-02: Adding single item updates cart badge to 1 @bug @p2",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:12:15.840Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/problem-user-checkout-bug.spec.ts::TC-BUG-001-01: problem_user can login and reach inventory @bug @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/problem-user-checkout-bug.spec.ts::TC-BUG-001-01: problem_user can login and reach inventory @bug @p0",
+    "name": "TC-BUG-001-01: problem_user can login and reach inventory @bug @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:12:13.569Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/problem-user-checkout-bug.spec.ts::TC-BUG-001-03: Checkout subtotal equals cart item sum @bug @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/problem-user-checkout-bug.spec.ts::TC-BUG-001-03: Checkout subtotal equals cart item sum @bug @p2",
+    "name": "TC-BUG-001-03: Checkout subtotal equals cart item sum @bug @p2",
+    "passedRuns": 0,
+    "failedRuns": 2,
+    "lastRun": "2026-04-30T14:12:22.676Z",
+    "lastStatus": "failed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/problem-user-checkout-bug.spec.ts::TC-BUG-001-04: Tax equals subtotal × 8% @bug @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/problem-user-checkout-bug.spec.ts::TC-BUG-001-04: Tax equals subtotal × 8% @bug @p2",
+    "name": "TC-BUG-001-04: Tax equals subtotal × 8% @bug @p2",
+    "passedRuns": 0,
+    "failedRuns": 2,
+    "lastRun": "2026-04-30T14:12:22.840Z",
+    "lastStatus": "failed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/problem-user-checkout-bug.spec.ts::TC-BUG-001-08: Multiple items — subtotal is still 2x @bug @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/problem-user-checkout-bug.spec.ts::TC-BUG-001-08: Multiple items — subtotal is still 2x @bug @p2",
+    "name": "TC-BUG-001-08: Multiple items — subtotal is still 2x @bug @p2",
+    "passedRuns": 0,
+    "failedRuns": 2,
+    "lastRun": "2026-04-30T14:12:31.717Z",
+    "lastStatus": "failed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/problem-user-checkout-bug.spec.ts::TC-BUG-001-05: Total equals subtotal plus tax @bug @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/problem-user-checkout-bug.spec.ts::TC-BUG-001-05: Total equals subtotal plus tax @bug @p2",
+    "name": "TC-BUG-001-05: Total equals subtotal plus tax @bug @p2",
+    "passedRuns": 0,
+    "failedRuns": 2,
+    "lastRun": "2026-04-30T14:12:24.131Z",
+    "lastStatus": "failed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/problem-user-checkout-bug.spec.ts::TC-BUG-001-06: Document full pricing bug state for BUG-001 report @bug @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/problem-user-checkout-bug.spec.ts::TC-BUG-001-06: Document full pricing bug state for BUG-001 report @bug @p2",
+    "name": "TC-BUG-001-06: Document full pricing bug state for BUG-001 report @bug @p2",
+    "passedRuns": 0,
+    "failedRuns": 2,
+    "lastRun": "2026-04-30T14:12:30.147Z",
+    "lastStatus": "failed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/problem-user-checkout-bug.spec.ts::TC-BUG-001-07: Cart item prices are correct; subtotal is doubled @bug @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/problem-user-checkout-bug.spec.ts::TC-BUG-001-07: Cart item prices are correct; subtotal is doubled @bug @p2",
+    "name": "TC-BUG-001-07: Cart item prices are correct; subtotal is doubled @bug @p2",
+    "passedRuns": 0,
+    "failedRuns": 2,
+    "lastRun": "2026-04-30T14:12:30.774Z",
+    "lastStatus": "failed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/problem-user-checkout-bug.spec.ts::TC-BUG-001-09: Checkout completion works despite pricing bug @bug @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/problem-user-checkout-bug.spec.ts::TC-BUG-001-09: Checkout completion works despite pricing bug @bug @critical @p0",
+    "name": "TC-BUG-001-09: Checkout completion works despite pricing bug @bug @critical @p0",
+    "passedRuns": 0,
+    "failedRuns": 2,
+    "lastRun": "2026-04-30T14:12:35.832Z",
+    "lastStatus": "failed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/visual-user-bugs.spec.ts::TC-BUG-003-02: visual_user sees all 6 products in inventory @bug @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/visual-user-bugs.spec.ts::TC-BUG-003-02: visual_user sees all 6 products in inventory @bug @p0",
+    "name": "TC-BUG-003-02: visual_user sees all 6 products in inventory @bug @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:12:33.574Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/visual-user-bugs.spec.ts::TC-BUG-003-01: visual_user can login successfully @bug @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/visual-user-bugs.spec.ts::TC-BUG-003-01: visual_user can login successfully @bug @p0",
+    "name": "TC-BUG-003-01: visual_user can login successfully @bug @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:12:32.958Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/visual-user-bugs.spec.ts::TC-BUG-003a-01: Broken image exists on inventory page @bug @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/visual-user-bugs.spec.ts::TC-BUG-003a-01: Broken image exists on inventory page @bug @p2",
+    "name": "TC-BUG-003a-01: Broken image exists on inventory page @bug @p2",
+    "passedRuns": 0,
+    "failedRuns": 2,
+    "lastRun": "2026-04-30T14:12:36.894Z",
+    "lastStatus": "failed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/visual-user-bugs.spec.ts::TC-BUG-003b-03: Known incorrect prices match documented bug values @bug @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/visual-user-bugs.spec.ts::TC-BUG-003b-03: Known incorrect prices match documented bug values @bug @p2",
+    "name": "TC-BUG-003b-03: Known incorrect prices match documented bug values @bug @p2",
+    "passedRuns": 0,
+    "failedRuns": 2,
+    "lastRun": "2026-04-30T14:12:38.332Z",
+    "lastStatus": "failed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/visual-user-bugs.spec.ts::TC-BUG-003b-02: Sauce Labs Backpack price is $27.25 instead of $29.99 @bug @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/visual-user-bugs.spec.ts::TC-BUG-003b-02: Sauce Labs Backpack price is $27.25 instead of $29.99 @bug @p2",
+    "name": "TC-BUG-003b-02: Sauce Labs Backpack price is $27.25 instead of $29.99 @bug @p2",
+    "passedRuns": 0,
+    "failedRuns": 2,
+    "lastRun": "2026-04-30T14:12:37.984Z",
+    "lastStatus": "failed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/visual-user-bugs.spec.ts::TC-BUG-003a-02: Sauce Labs Backpack image is broken (sl-404.jpg) @bug @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/visual-user-bugs.spec.ts::TC-BUG-003a-02: Sauce Labs Backpack image is broken (sl-404.jpg) @bug @p2",
+    "name": "TC-BUG-003a-02: Sauce Labs Backpack image is broken (sl-404.jpg) @bug @p2",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:12:35.050Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/visual-user-bugs.spec.ts::TC-BUG-003b-01: Inventory display prices differ from expected prices @bug @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/visual-user-bugs.spec.ts::TC-BUG-003b-01: Inventory display prices differ from expected prices @bug @p2",
+    "name": "TC-BUG-003b-01: Inventory display prices differ from expected prices @bug @p2",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:12:35.716Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/visual-user-bugs.spec.ts::TC-BUG-003c-01: Cart page shows correct prices (inventory bug does not affect cart) @bug @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/visual-user-bugs.spec.ts::TC-BUG-003c-01: Cart page shows correct prices (inventory bug does not affect cart) @bug @critical @p0",
+    "name": "TC-BUG-003c-01: Cart page shows correct prices (inventory bug does not affect cart) @bug @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:12:38.021Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/visual-user-bugs.spec.ts::TC-BUG-003c-02: Checkout overview shows correct prices (not inventory display prices) @bug @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/visual-user-bugs.spec.ts::TC-BUG-003c-02: Checkout overview shows correct prices (not inventory display prices) @bug @critical @p0",
+    "name": "TC-BUG-003c-02: Checkout overview shows correct prices (not inventory display prices) @bug @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:12:38.973Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/visual-user-bugs.spec.ts::TC-BUG-003-99: Document full BUG-003 evidence @bug @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/bug-verification/visual-user-bugs.spec.ts::TC-BUG-003-99: Document full BUG-003 evidence @bug @p2",
+    "name": "TC-BUG-003-99: Document full BUG-003 evidence @bug @p2",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:12:42.319Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/cart/CartOperations.spec.ts::TC-CART-001: Add single item to cart updates badge and cart contents @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/cart/CartOperations.spec.ts::TC-CART-001: Add single item to cart updates badge and cart contents @critical @p0",
+    "name": "TC-CART-001: Add single item to cart updates badge and cart contents @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:12:39.339Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/cart/CartOperations.spec.ts::TC-CART-003: Add all 6 products to cart shows correct count @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/cart/CartOperations.spec.ts::TC-CART-003: Add all 6 products to cart shows correct count @critical @p0",
+    "name": "TC-CART-003: Add all 6 products to cart shows correct count @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:12:40.681Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/cart/CartOperations.spec.ts::TC-CART-002: Add multiple items to cart shows correct count and totals @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/cart/CartOperations.spec.ts::TC-CART-002: Add multiple items to cart shows correct count and totals @p1",
+    "name": "TC-CART-002: Add multiple items to cart shows correct count and totals @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:12:40.769Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/cart/CartOperations.spec.ts::TC-CART-004: Remove item from cart decrements badge and removes item @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/cart/CartOperations.spec.ts::TC-CART-004: Remove item from cart decrements badge and removes item @p1",
+    "name": "TC-CART-004: Remove item from cart decrements badge and removes item @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:12:41.662Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/cart/CartOperations.spec.ts::TC-CART-005: Empty cart shows no checkout option @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/cart/CartOperations.spec.ts::TC-CART-005: Empty cart shows no checkout option @p1",
+    "name": "TC-CART-005: Empty cart shows no checkout option @p1",
+    "passedRuns": 0,
+    "failedRuns": 2,
+    "lastRun": "2026-04-30T14:12:42.179Z",
+    "lastStatus": "failed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/cart/CartOperations.spec.ts::TC-CART-006: Cart total equals sum of individual item prices @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/cart/CartOperations.spec.ts::TC-CART-006: Cart total equals sum of individual item prices @p0",
+    "name": "TC-CART-006: Cart total equals sum of individual item prices @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:12:42.082Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/cart/CartOperations.spec.ts::TC-CART-007: problem_user cart item prices are correct (BUG-001 partial) @bug @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/cart/CartOperations.spec.ts::TC-CART-007: problem_user cart item prices are correct (BUG-001 partial) @bug @p2",
+    "name": "TC-CART-007: problem_user cart item prices are correct (BUG-001 partial) @bug @p2",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:12:43.060Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/cart/CartOperations.spec.ts::TC-CART-008: visual_user cart shows correct prices despite wrong inventory display @bug @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/cart/CartOperations.spec.ts::TC-CART-008: visual_user cart shows correct prices despite wrong inventory display @bug @p2",
+    "name": "TC-CART-008: visual_user cart shows correct prices despite wrong inventory display @bug @p2",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:12:43.552Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/cart/CartOperations.spec.ts::TC-CART-009: Cart badge updates correctly on add and remove operations @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/cart/CartOperations.spec.ts::TC-CART-009: Cart badge updates correctly on add and remove operations @p1",
+    "name": "TC-CART-009: Cart badge updates correctly on add and remove operations @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:12:44.467Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/cart/CartOperations.spec.ts::TC-CART-011a: standard_user - cart checkout flow @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/cart/CartOperations.spec.ts::TC-CART-011a: standard_user - cart checkout flow @critical @p0",
+    "name": "TC-CART-011a: standard_user - cart checkout flow @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:12:44.534Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/cart/CartOperations.spec.ts::TC-CART-011b: problem_user - cart checkout flow @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/cart/CartOperations.spec.ts::TC-CART-011b: problem_user - cart checkout flow @critical @p0",
+    "name": "TC-CART-011b: problem_user - cart checkout flow @critical @p0",
+    "passedRuns": 0,
+    "failedRuns": 2,
+    "lastRun": "2026-04-30T14:12:52.265Z",
+    "lastStatus": "failed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/cart/CartOperations.spec.ts::TC-CART-010: Complete checkout flow from cart succeeds @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/cart/CartOperations.spec.ts::TC-CART-010: Complete checkout flow from cart succeeds @critical @p0",
+    "name": "TC-CART-010: Complete checkout flow from cart succeeds @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:12:43.792Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/cart/CartOperations.spec.ts::TC-CART-011c: error_user - cart checkout flow @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/cart/CartOperations.spec.ts::TC-CART-011c: error_user - cart checkout flow @critical @p0",
+    "name": "TC-CART-011c: error_user - cart checkout flow @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:12:45.132Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/cart/CartOperations.spec.ts::TC-CART-011e: performance_glitch_user - cart checkout flow @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/cart/CartOperations.spec.ts::TC-CART-011e: performance_glitch_user - cart checkout flow @critical @p0",
+    "name": "TC-CART-011e: performance_glitch_user - cart checkout flow @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:12:50.895Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/cart/CartOperations.spec.ts::TC-CART-011d: visual_user - cart checkout flow @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/cart/CartOperations.spec.ts::TC-CART-011d: visual_user - cart checkout flow @critical @p0",
+    "name": "TC-CART-011d: visual_user - cart checkout flow @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:12:45.893Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/cart/CartOperations.spec.ts::TC-CART-012: Adding same item twice increments badge count @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/cart/CartOperations.spec.ts::TC-CART-012: Adding same item twice increments badge count @p1",
+    "name": "TC-CART-012: Adding same item twice increments badge count @p1",
+    "passedRuns": 0,
+    "failedRuns": 2,
+    "lastRun": "2026-04-30T14:12:59.098Z",
+    "lastStatus": "failed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/checkout/CheckoutCalculation.spec.ts::TC-CALC-001: Single item subtotal equals item price @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/checkout/CheckoutCalculation.spec.ts::TC-CALC-001: Single item subtotal equals item price @critical @p0",
+    "name": "TC-CALC-001: Single item subtotal equals item price @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:12:47.231Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/checkout/CheckoutCalculation.spec.ts::TC-CALC-002: Multiple items subtotal equals sum of item prices @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/checkout/CheckoutCalculation.spec.ts::TC-CALC-002: Multiple items subtotal equals sum of item prices @critical @p0",
+    "name": "TC-CALC-002: Multiple items subtotal equals sum of item prices @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:12:48.648Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/checkout/CheckoutCalculation.spec.ts::TC-CALC-003: Tax equals 8% of subtotal @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/checkout/CheckoutCalculation.spec.ts::TC-CALC-003: Tax equals 8% of subtotal @critical @p0",
+    "name": "TC-CALC-003: Tax equals 8% of subtotal @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:12:50.088Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/checkout/CheckoutCalculation.spec.ts::TC-CALC-004: Total equals subtotal plus tax @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/checkout/CheckoutCalculation.spec.ts::TC-CALC-004: Total equals subtotal plus tax @critical @p0",
+    "name": "TC-CALC-004: Total equals subtotal plus tax @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:12:51.452Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/checkout/CheckoutCalculation.spec.ts::TC-CALC-005: problem_user subtotal should NOT be doubled (BUG-001 regression) @bug @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/checkout/CheckoutCalculation.spec.ts::TC-CALC-005: problem_user subtotal should NOT be doubled (BUG-001 regression) @bug @critical @p0",
+    "name": "TC-CALC-005: problem_user subtotal should NOT be doubled (BUG-001 regression) @bug @critical @p0",
+    "passedRuns": 0,
+    "failedRuns": 2,
+    "lastRun": "2026-04-30T14:12:58.535Z",
+    "lastStatus": "failed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/checkout/CheckoutFlow.spec.ts::TC-005: Products are sorted by price low to high @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/checkout/CheckoutFlow.spec.ts::TC-005: Products are sorted by price low to high @p1",
+    "name": "TC-005: Products are sorted by price low to high @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:12:54.841Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/checkout/CheckoutCalculation.spec.ts::TC-CALC-007: All users except problem_user have correct subtotals @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/checkout/CheckoutCalculation.spec.ts::TC-CALC-007: All users except problem_user have correct subtotals @critical @p0",
+    "name": "TC-CALC-007: All users except problem_user have correct subtotals @critical @p0",
+    "passedRuns": 0,
+    "failedRuns": 2,
+    "lastRun": "2026-04-30T14:13:07.248Z",
+    "lastStatus": "failed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/checkout/CheckoutCalculation.spec.ts::TC-CALC-006: Checkout completion succeeds with correct pricing @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/checkout/CheckoutCalculation.spec.ts::TC-CALC-006: Checkout completion succeeds with correct pricing @critical @p0",
+    "name": "TC-CALC-006: Checkout completion succeeds with correct pricing @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:12:52.762Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/checkout/CheckoutFlow.spec.ts::TC-006: Adding product to cart updates badge and cart page @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/checkout/CheckoutFlow.spec.ts::TC-006: Adding product to cart updates badge and cart page @p1",
+    "name": "TC-006: Adding product to cart updates badge and cart page @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:12:56.116Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/corner/CornerCases.spec.ts::TC-CORNER-001: Add all products then remove all @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/corner/CornerCases.spec.ts::TC-CORNER-001: Add all products then remove all @p1",
+    "name": "TC-CORNER-001: Add all products then remove all @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:12:57.588Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/corner/CornerCases.spec.ts::TC-CORNER-003: standard_user rapid checkout @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/corner/CornerCases.spec.ts::TC-CORNER-003: standard_user rapid checkout @p2",
+    "name": "TC-CORNER-003: standard_user rapid checkout @p2",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:04.389Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/corner/CornerCases.spec.ts::TC-CORNER-002: Rapid add/remove operations @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/corner/CornerCases.spec.ts::TC-CORNER-002: Rapid add/remove operations @p2",
+    "name": "TC-CORNER-002: Rapid add/remove operations @p2",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:12:59.166Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/corner/CornerCases.spec.ts::TC-CORNER-004: Back/forward navigation stress @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/corner/CornerCases.spec.ts::TC-CORNER-004: Back/forward navigation stress @p1",
+    "name": "TC-CORNER-004: Back/forward navigation stress @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:01.323Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/corner/CornerCases.spec.ts::TC-CORNER-006: Switch users maintains isolation @critical @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/corner/CornerCases.spec.ts::TC-CORNER-006: Switch users maintains isolation @critical @p1",
+    "name": "TC-CORNER-006: Switch users maintains isolation @critical @p1",
+    "passedRuns": 0,
+    "failedRuns": 2,
+    "lastRun": "2026-04-30T14:13:04.834Z",
+    "lastStatus": "failed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/corner/CornerCases.spec.ts::TC-CORNER-005: Sort order maintained through checkout @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/corner/CornerCases.spec.ts::TC-CORNER-005: Sort order maintained through checkout @p2",
+    "name": "TC-CORNER-005: Sort order maintained through checkout @p2",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:00.545Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/corner/CornerCases.spec.ts::TC-CORNER-007: Refresh during checkout handled @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/corner/CornerCases.spec.ts::TC-CORNER-007: Refresh during checkout handled @p1",
+    "name": "TC-CORNER-007: Refresh during checkout handled @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:02.693Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/corner/CornerCases.spec.ts::TC-CORNER-008: Multiple sequential checkout flows @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/corner/CornerCases.spec.ts::TC-CORNER-008: Multiple sequential checkout flows @p2",
+    "name": "TC-CORNER-008: Multiple sequential checkout flows @p2",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:05.175Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/corner/CornerCases.spec.ts::TC-CORNER-009: New order without logout @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/corner/CornerCases.spec.ts::TC-CORNER-009: New order without logout @p1",
+    "name": "TC-CORNER-009: New order without logout @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:06.795Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/corner/CornerCases.spec.ts::TC-CORNER-011: All user types complete checkout successfully @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/corner/CornerCases.spec.ts::TC-CORNER-011: All user types complete checkout successfully @p1",
+    "name": "TC-CORNER-011: All user types complete checkout successfully @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:07.290Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/corner/CornerCases.spec.ts::TC-CORNER-012: Username case sensitivity @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/corner/CornerCases.spec.ts::TC-CORNER-012: Username case sensitivity @p2",
+    "name": "TC-CORNER-012: Username case sensitivity @p2",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:08.992Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/corner/CornerCases.spec.ts::TC-CORNER-010: Sorting works for all user types @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/corner/CornerCases.spec.ts::TC-CORNER-010: Sorting works for all user types @p2",
+    "name": "TC-CORNER-010: Sorting works for all user types @p2",
+    "passedRuns": 0,
+    "failedRuns": 2,
+    "lastRun": "2026-04-30T14:13:09.430Z",
+    "lastStatus": "failed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/edge-cases/EdgeCaseTests.spec.ts::TC-EDGE-003: Cart persists after page reload @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/edge-cases/EdgeCaseTests.spec.ts::TC-EDGE-003: Cart persists after page reload @p1",
+    "name": "TC-EDGE-003: Cart persists after page reload @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:12.005Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/edge-cases/EdgeCaseTests.spec.ts::TC-EDGE-002: Remove all items from cart @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/edge-cases/EdgeCaseTests.spec.ts::TC-EDGE-002: Remove all items from cart @p1",
+    "name": "TC-EDGE-002: Remove all items from cart @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:11.741Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/edge-cases/EdgeCaseTests.spec.ts::TC-EDGE-001: Empty cart has no checkout button @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/edge-cases/EdgeCaseTests.spec.ts::TC-EDGE-001: Empty cart has no checkout button @p1",
+    "name": "TC-EDGE-001: Empty cart has no checkout button @p1",
+    "passedRuns": 0,
+    "failedRuns": 2,
+    "lastRun": "2026-04-30T14:13:09.219Z",
+    "lastStatus": "failed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/corner/CornerCases.spec.ts::TC-CORNER-013: Adding same item twice increments quantity @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/corner/CornerCases.spec.ts::TC-CORNER-013: Adding same item twice increments quantity @p2",
+    "name": "TC-CORNER-013: Adding same item twice increments quantity @p2",
+    "passedRuns": 0,
+    "failedRuns": 2,
+    "lastRun": "2026-04-30T14:13:20.560Z",
+    "lastStatus": "failed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/edge-cases/EdgeCaseTests.spec.ts::TC-EDGE-004: Continue shopping returns to inventory @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/edge-cases/EdgeCaseTests.spec.ts::TC-EDGE-004: Continue shopping returns to inventory @p1",
+    "name": "TC-EDGE-004: Continue shopping returns to inventory @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:12.275Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/edge-cases/EdgeCaseTests.spec.ts::TC-EDGE-005: Cancel checkout returns to cart @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/edge-cases/EdgeCaseTests.spec.ts::TC-EDGE-005: Cancel checkout returns to cart @p1",
+    "name": "TC-EDGE-005: Cancel checkout returns to cart @p1",
+    "passedRuns": 0,
+    "failedRuns": 2,
+    "lastRun": "2026-04-30T14:13:19.698Z",
+    "lastStatus": "failed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/edge-cases/EdgeCaseTests.spec.ts::TC-EDGE-007: All 6 products can be added to cart @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/edge-cases/EdgeCaseTests.spec.ts::TC-EDGE-007: All 6 products can be added to cart @p1",
+    "name": "TC-EDGE-007: All 6 products can be added to cart @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:14.485Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/edge-cases/EdgeCaseTests.spec.ts::TC-EDGE-006: Various postal code formats are accepted @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/edge-cases/EdgeCaseTests.spec.ts::TC-EDGE-006: Various postal code formats are accepted @p2",
+    "name": "TC-EDGE-006: Various postal code formats are accepted @p2",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:13.372Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/edge-cases/EdgeCaseTests.spec.ts::TC-EDGE-008: Cart badge updates correctly on add/remove @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/edge-cases/EdgeCaseTests.spec.ts::TC-EDGE-008: Cart badge updates correctly on add/remove @p1",
+    "name": "TC-EDGE-008: Cart badge updates correctly on add/remove @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:15.525Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/exception/ExceptionHandling.spec.ts::TC-EXC-001: Non-existent page shows error message @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/exception/ExceptionHandling.spec.ts::TC-EXC-001: Non-existent page shows error message @p1",
+    "name": "TC-EXC-001: Non-existent page shows error message @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:15.279Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/exception/ExceptionHandling.spec.ts::TC-EXC-002: Empty cart shows appropriate empty state @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/exception/ExceptionHandling.spec.ts::TC-EXC-002: Empty cart shows appropriate empty state @p1",
+    "name": "TC-EXC-002: Empty cart shows appropriate empty state @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:16.431Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/exception/ExceptionHandling.spec.ts::TC-EXC-003: Invalid product ID handled gracefully @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/exception/ExceptionHandling.spec.ts::TC-EXC-003: Invalid product ID handled gracefully @p1",
+    "name": "TC-EXC-003: Invalid product ID handled gracefully @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:16.754Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/exception/ExceptionHandling.spec.ts::TC-EXC-004: Incomplete checkout form shows validation error @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/exception/ExceptionHandling.spec.ts::TC-EXC-004: Incomplete checkout form shows validation error @p1",
+    "name": "TC-EXC-004: Incomplete checkout form shows validation error @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:17.648Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/exception/ExceptionHandling.spec.ts::TC-EXC-005: error_user renders error gracefully @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/exception/ExceptionHandling.spec.ts::TC-EXC-005: error_user renders error gracefully @critical @p0",
+    "name": "TC-EXC-005: error_user renders error gracefully @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:17.919Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/exception/ExceptionHandling.spec.ts::TC-EXC-006: problem_user continues despite errors @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/exception/ExceptionHandling.spec.ts::TC-EXC-006: problem_user continues despite errors @p1",
+    "name": "TC-EXC-006: problem_user continues despite errors @p1",
+    "passedRuns": 0,
+    "failedRuns": 2,
+    "lastRun": "2026-04-30T14:13:28.172Z",
+    "lastStatus": "failed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/exception/ExceptionHandling.spec.ts::TC-EXC-007: Page refresh maintains state @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/exception/ExceptionHandling.spec.ts::TC-EXC-007: Page refresh maintains state @p1",
+    "name": "TC-EXC-007: Page refresh maintains state @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:20.117Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/exception/ExceptionHandling.spec.ts::TC-EXC-008: visual_user handles broken images without crash @bug @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/exception/ExceptionHandling.spec.ts::TC-EXC-008: visual_user handles broken images without crash @bug @p0",
+    "name": "TC-EXC-008: visual_user handles broken images without crash @bug @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:24.056Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/exception/ExceptionHandling.spec.ts::TC-EXC-009: Checkout handles item removal during review @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/exception/ExceptionHandling.spec.ts::TC-EXC-009: Checkout handles item removal during review @p1",
+    "name": "TC-EXC-009: Checkout handles item removal during review @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:21.586Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/exception/ExceptionHandling.spec.ts::TC-EXC-011: error_user checkout flow handles errors @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/exception/ExceptionHandling.spec.ts::TC-EXC-011: error_user checkout flow handles errors @p1",
+    "name": "TC-EXC-011: error_user checkout flow handles errors @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:23.132Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/exception/ExceptionHandling.spec.ts::TC-EXC-010: Order completion shows success message @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/exception/ExceptionHandling.spec.ts::TC-EXC-010: Order completion shows success message @p1",
+    "name": "TC-EXC-010: Order completion shows success message @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:23.145Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/exception/ExceptionHandling.spec.ts::TC-EXC-012: performance_glitch_user login handles delay @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/exception/ExceptionHandling.spec.ts::TC-EXC-012: performance_glitch_user login handles delay @p1",
+    "name": "TC-EXC-012: performance_glitch_user login handles delay @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:30.355Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/exception/ExceptionHandling.spec.ts::TC-EXC-013: Post-checkout navigation works @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/exception/ExceptionHandling.spec.ts::TC-EXC-013: Post-checkout navigation works @p1",
+    "name": "TC-EXC-013: Post-checkout navigation works @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:25.449Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/exception/ExceptionHandling.spec.ts::TC-EXC-014: Locked out user shows specific error @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/exception/ExceptionHandling.spec.ts::TC-EXC-014: Locked out user shows specific error @p1",
+    "name": "TC-EXC-014: Locked out user shows specific error @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:25.219Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/exception/ExceptionHandling.spec.ts::TC-EXC-015: Invalid URL parameters handled gracefully @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/exception/ExceptionHandling.spec.ts::TC-EXC-015: Invalid URL parameters handled gracefully @p2",
+    "name": "TC-EXC-015: Invalid URL parameters handled gracefully @p2",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:27.423Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/helpers/fixtures-demo.spec.ts::TC-011: Access auth state @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/helpers/fixtures-demo.spec.ts::TC-011: Access auth state @p2",
+    "name": "TC-011: Access auth state @p2",
+    "passedRuns": 2,
+    "failedRuns": 0,
+    "lastRun": "2026-04-30T14:13:26.911Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/helpers/fixtures-demo.spec.ts::TC-013: Get specific record @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/helpers/fixtures-demo.spec.ts::TC-013: Get specific record @p2",
+    "name": "TC-013: Get specific record @p2",
+    "passedRuns": 2,
+    "failedRuns": 0,
+    "lastRun": "2026-04-30T14:13:26.929Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/helpers/fixtures-demo.spec.ts::TC-012: Load test data from Excel @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/helpers/fixtures-demo.spec.ts::TC-012: Load test data from Excel @p2",
+    "name": "TC-012: Load test data from Excel @p2",
+    "passedRuns": 2,
+    "failedRuns": 0,
+    "lastRun": "2026-04-30T14:13:26.921Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/helpers/fixtures-demo.spec.ts::TC-014: Check feature flag value @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/helpers/fixtures-demo.spec.ts::TC-014: Check feature flag value @p2",
+    "name": "TC-014: Check feature flag value @p2",
+    "passedRuns": 2,
+    "failedRuns": 0,
+    "lastRun": "2026-04-30T14:13:26.935Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/helpers/fixtures-demo.spec.ts::TC-010: Login using auth fixture @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/helpers/fixtures-demo.spec.ts::TC-010: Login using auth fixture @p2",
+    "name": "TC-010: Login using auth fixture @p2",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:26.899Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/helpers/fixtures-demo.spec.ts::TC-015: Clear flag overrides @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/helpers/fixtures-demo.spec.ts::TC-015: Clear flag overrides @p2",
+    "name": "TC-015: Clear flag overrides @p2",
+    "passedRuns": 2,
+    "failedRuns": 0,
+    "lastRun": "2026-04-30T14:13:26.942Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/helpers/fixtures-demo.spec.ts::TC-019: Database connection validation @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/helpers/fixtures-demo.spec.ts::TC-019: Database connection validation @p2",
+    "name": "TC-019: Database connection validation @p2",
+    "passedRuns": 0,
+    "failedRuns": 0,
+    "lastRun": "2026-04-30T14:13:27.623Z",
+    "lastStatus": "skipped"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/helpers/fixtures-demo.spec.ts::TC-016: Capture screenshot for VRT @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/helpers/fixtures-demo.spec.ts::TC-016: Capture screenshot for VRT @p2",
+    "name": "TC-016: Capture screenshot for VRT @p2",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:27.998Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/helpers/fixtures-demo.spec.ts::TC-021: Login with valid user via DDT @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/helpers/fixtures-demo.spec.ts::TC-021: Login with valid user via DDT @p2",
+    "name": "TC-021: Login with valid user via DDT @p2",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:28.852Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/helpers/fixtures-demo.spec.ts::TC-022: Login with locked_out_user via DDT @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/helpers/fixtures-demo.spec.ts::TC-022: Login with locked_out_user via DDT @p2",
+    "name": "TC-022: Login with locked_out_user via DDT @p2",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:29.110Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/integration/FullLifecycle.spec.ts::TC-INT-001: Complete purchase lifecycle @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/integration/FullLifecycle.spec.ts::TC-INT-001: Complete purchase lifecycle @critical @p0",
+    "name": "TC-INT-001: Complete purchase lifecycle @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:30.512Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/integration/FullLifecycle.spec.ts::TC-INT-002: Multiple items have correct cart total @integration @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/integration/FullLifecycle.spec.ts::TC-INT-002: Multiple items have correct cart total @integration @p0",
+    "name": "TC-INT-002: Multiple items have correct cart total @integration @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:30.439Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/integration/FullLifecycle.spec.ts::TC-INT-003: Remove item updates cart total @integration @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/integration/FullLifecycle.spec.ts::TC-INT-003: Remove item updates cart total @integration @p0",
+    "name": "TC-INT-003: Remove item updates cart total @integration @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:30.465Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/helpers/fixtures-demo.spec.ts::TC-020: S3 operations validation @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/helpers/fixtures-demo.spec.ts::TC-020: S3 operations validation @p2",
+    "name": "TC-020: S3 operations validation @p2",
+    "passedRuns": 0,
+    "failedRuns": 0,
+    "lastRun": "2026-04-30T14:13:27.635Z",
+    "lastStatus": "skipped"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/integration/FullLifecycle.spec.ts::TC-INT-007: Tax calculation is correct 8% @integration @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/integration/FullLifecycle.spec.ts::TC-INT-007: Tax calculation is correct 8% @integration @p0",
+    "name": "TC-INT-007: Tax calculation is correct 8% @integration @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:32.158Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/integration/FullLifecycle.spec.ts::TC-INT-004: Continue shopping returns to inventory @integration @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/integration/FullLifecycle.spec.ts::TC-INT-004: Continue shopping returns to inventory @integration @p0",
+    "name": "TC-INT-004: Continue shopping returns to inventory @integration @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:32.948Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/integration/FullLifecycle.spec.ts::TC-INT-006: Order summary totals are correct @integration @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/integration/FullLifecycle.spec.ts::TC-INT-006: Order summary totals are correct @integration @critical @p0",
+    "name": "TC-INT-006: Order summary totals are correct @integration @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:31.989Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/integration/FullLifecycle.spec.ts::TC-INT-005: All 6 products ordered successfully @integration @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/integration/FullLifecycle.spec.ts::TC-INT-005: All 6 products ordered successfully @integration @p0",
+    "name": "TC-INT-005: All 6 products ordered successfully @integration @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:32.286Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/integration/FullLifecycle.spec.ts::TC-INT-008: problem_user completes checkout (BUG-001 possible double-charge) @bug @integration @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/integration/FullLifecycle.spec.ts::TC-INT-008: problem_user completes checkout (BUG-001 possible double-charge) @bug @integration @p0",
+    "name": "TC-INT-008: problem_user completes checkout (BUG-001 possible double-charge) @bug @integration @p0",
+    "passedRuns": 0,
+    "failedRuns": 2,
+    "lastRun": "2026-04-30T14:13:41.719Z",
+    "lastStatus": "failed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/integration/FullLifecycle.spec.ts::TC-INT-009: visual_user completes checkout (BUG-003b cart prices correct) @bug @integration @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/integration/FullLifecycle.spec.ts::TC-INT-009: visual_user completes checkout (BUG-003b cart prices correct) @bug @integration @p0",
+    "name": "TC-INT-009: visual_user completes checkout (BUG-003b cart prices correct) @bug @integration @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:33.614Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/integration/FullLifecycle.spec.ts::TC-INT-010: Logout during checkout redirects to login @integration @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/integration/FullLifecycle.spec.ts::TC-INT-010: Logout during checkout redirects to login @integration @p0",
+    "name": "TC-INT-010: Logout during checkout redirects to login @integration @p0",
+    "passedRuns": 0,
+    "failedRuns": 2,
+    "lastRun": "2026-04-30T14:13:41.800Z",
+    "lastStatus": "failed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/integration/FullLifecycle.spec.ts::TC-INT-011: Back button returns to previous checkout step @integration @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/integration/FullLifecycle.spec.ts::TC-INT-011: Back button returns to previous checkout step @integration @p0",
+    "name": "TC-INT-011: Back button returns to previous checkout step @integration @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:34.351Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/integration/FullLifecycle.spec.ts::TC-INT-012: Cart items persist during navigation @integration @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/integration/FullLifecycle.spec.ts::TC-INT-012: Cart items persist during navigation @integration @p0",
+    "name": "TC-INT-012: Cart items persist during navigation @integration @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:36.464Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/integration/FullLifecycle.spec.ts::TC-INT-013: error_user checkout handles errors @integration @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/integration/FullLifecycle.spec.ts::TC-INT-013: error_user checkout handles errors @integration @p0",
+    "name": "TC-INT-013: error_user checkout handles errors @integration @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:35.811Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/integration/FullLifecycle.spec.ts::TC-INT-014: performance_glitch_user checkout completes @integration @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/integration/FullLifecycle.spec.ts::TC-INT-014: performance_glitch_user checkout completes @integration @p0",
+    "name": "TC-INT-014: performance_glitch_user checkout completes @integration @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:42.284Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/integration/FullLifecycle.spec.ts::TC-INT-015: Sort order does not affect checkout @integration @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/integration/FullLifecycle.spec.ts::TC-INT-015: Sort order does not affect checkout @integration @p0",
+    "name": "TC-INT-015: Sort order does not affect checkout @integration @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:37.878Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/inventory/InventoryPage.spec.ts::TC-007: Complete checkout flow shows success message @critical @smoke @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/inventory/InventoryPage.spec.ts::TC-007: Complete checkout flow shows success message @critical @smoke @p0",
+    "name": "TC-007: Complete checkout flow shows success message @critical @smoke @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:39.441Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/inventory/InventoryPage.spec.ts::TC-007b: Checkout with empty fields shows validation error @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/inventory/InventoryPage.spec.ts::TC-007b: Checkout with empty fields shows validation error @p1",
+    "name": "TC-007b: Checkout with empty fields shows validation error @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:40.800Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/login/LoginFlow.spec.ts::TC-LOGIN-002: locked_out_user is correctly locked out @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/login/LoginFlow.spec.ts::TC-LOGIN-002: locked_out_user is correctly locked out @p1",
+    "name": "TC-LOGIN-002: locked_out_user is correctly locked out @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:43.957Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/login/LoginFlow.spec.ts::TC-LOGIN-001: standard_user login succeeds @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/login/LoginFlow.spec.ts::TC-LOGIN-001: standard_user login succeeds @critical @p0",
+    "name": "TC-LOGIN-001: standard_user login succeeds @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:42.833Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/login/LoginFlow.spec.ts::TC-LOGIN-003: problem_user login succeeds @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/login/LoginFlow.spec.ts::TC-LOGIN-003: problem_user login succeeds @p1",
+    "name": "TC-LOGIN-003: problem_user login succeeds @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:44.904Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/login/LoginFlow.spec.ts::TC-LOGIN-004: error_user login succeeds @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/login/LoginFlow.spec.ts::TC-LOGIN-004: error_user login succeeds @p1",
+    "name": "TC-LOGIN-004: error_user login succeeds @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:44.303Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/login/LoginFlow.spec.ts::TC-LOGIN-005: visual_user login succeeds @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/login/LoginFlow.spec.ts::TC-LOGIN-005: visual_user login succeeds @p2",
+    "name": "TC-LOGIN-005: visual_user login succeeds @p2",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:44.929Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/login/LoginFlow.spec.ts::TC-LOGIN-006: performance_glitch_user login succeeds with delay @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/login/LoginFlow.spec.ts::TC-LOGIN-006: performance_glitch_user login succeeds with delay @p1",
+    "name": "TC-LOGIN-006: performance_glitch_user login succeeds with delay @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:51.051Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/login/LoginFlow.spec.ts::TC-LOGIN-007: performance_glitch_user has 2-second login delay (BUG-004) @bug @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/login/LoginFlow.spec.ts::TC-LOGIN-007: performance_glitch_user has 2-second login delay (BUG-004) @bug @p2",
+    "name": "TC-LOGIN-007: performance_glitch_user has 2-second login delay (BUG-004) @bug @p2",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:51.325Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/login/LoginFlow.spec.ts::TC-LOGIN-009: Empty credentials are rejected @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/login/LoginFlow.spec.ts::TC-LOGIN-009: Empty credentials are rejected @p1",
+    "name": "TC-LOGIN-009: Empty credentials are rejected @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:46.224Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/login/LoginFlow.spec.ts::TC-LOGIN-008: Invalid credentials are rejected @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/login/LoginFlow.spec.ts::TC-LOGIN-008: Invalid credentials are rejected @p1",
+    "name": "TC-LOGIN-008: Invalid credentials are rejected @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:46.187Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/login/LoginFlow.spec.ts::TC-LOGIN-010: All 6 users have correct login behavior @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/login/LoginFlow.spec.ts::TC-LOGIN-010: All 6 users have correct login behavior @critical @p0",
+    "name": "TC-LOGIN-010: All 6 users have correct login behavior @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:57.682Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/login/LoginPage.spec.ts::TC-001: Login with valid credentials redirects to inventory page @critical @smoke @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/login/LoginPage.spec.ts::TC-001: Login with valid credentials redirects to inventory page @critical @smoke @p0",
+    "name": "TC-001: Login with valid credentials redirects to inventory page @critical @smoke @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:48.428Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/login/LoginPage.spec.ts::TC-003: Login with empty username shows error message @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/login/LoginPage.spec.ts::TC-003: Login with empty username shows error message @p1",
+    "name": "TC-003: Login with empty username shows error message @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:50.867Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/login/LoginPage.spec.ts::TC-002: Login with wrong password shows error message @smoke @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/login/LoginPage.spec.ts::TC-002: Login with wrong password shows error message @smoke @critical @p0",
+    "name": "TC-002: Login with wrong password shows error message @smoke @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:49.677Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/login/LoginPage.spec.ts::TC-004: Login with locked_out_user shows locked out error @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/login/LoginPage.spec.ts::TC-004: Login with locked_out_user shows locked out error @p1",
+    "name": "TC-004: Login with locked_out_user shows locked out error @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:52.109Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/negative/NegativeInputValidation.spec.ts::TC-NEG-001: Empty username shows error message @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/negative/NegativeInputValidation.spec.ts::TC-NEG-001: Empty username shows error message @p1",
+    "name": "TC-NEG-001: Empty username shows error message @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:52.240Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/negative/NegativeInputValidation.spec.ts::TC-NEG-002: Empty password shows error message @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/negative/NegativeInputValidation.spec.ts::TC-NEG-002: Empty password shows error message @p1",
+    "name": "TC-NEG-002: Empty password shows error message @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:52.491Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/negative/NegativeInputValidation.spec.ts::TC-NEG-003: Non-existent user login fails @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/negative/NegativeInputValidation.spec.ts::TC-NEG-003: Non-existent user login fails @p1",
+    "name": "TC-NEG-003: Non-existent user login fails @p1",
+    "passedRuns": 0,
+    "failedRuns": 2,
+    "lastRun": "2026-04-30T14:13:53.718Z",
+    "lastStatus": "failed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/negative/NegativeInputValidation.spec.ts::TC-NEG-004: Wrong password fails for existing user @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/negative/NegativeInputValidation.spec.ts::TC-NEG-004: Wrong password fails for existing user @p1",
+    "name": "TC-NEG-004: Wrong password fails for existing user @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:53.394Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/negative/NegativeInputValidation.spec.ts::TC-NEG-005: Locked out user shows specific error @critical @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/negative/NegativeInputValidation.spec.ts::TC-NEG-005: Locked out user shows specific error @critical @p1",
+    "name": "TC-NEG-005: Locked out user shows specific error @critical @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:53.640Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/negative/NegativeInputValidation.spec.ts::TC-NEG-006: Checkout fails with empty first name @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/negative/NegativeInputValidation.spec.ts::TC-NEG-006: Checkout fails with empty first name @p1",
+    "name": "TC-NEG-006: Checkout fails with empty first name @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:55.017Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/negative/NegativeInputValidation.spec.ts::TC-NEG-007: Checkout fails with empty last name @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/negative/NegativeInputValidation.spec.ts::TC-NEG-007: Checkout fails with empty last name @p1",
+    "name": "TC-NEG-007: Checkout fails with empty last name @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:55.131Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/negative/NegativeInputValidation.spec.ts::TC-NEG-008: Checkout fails with empty postal code @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/negative/NegativeInputValidation.spec.ts::TC-NEG-008: Checkout fails with empty postal code @p1",
+    "name": "TC-NEG-008: Checkout fails with empty postal code @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:56.026Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/negative/NegativeInputValidation.spec.ts::TC-NEG-009: Special characters in name are handled @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/negative/NegativeInputValidation.spec.ts::TC-NEG-009: Special characters in name are handled @p2",
+    "name": "TC-NEG-009: Special characters in name are handled @p2",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:56.399Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/negative/NegativeInputValidation.spec.ts::TC-NEG-010: SQL injection in username is rejected @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/negative/NegativeInputValidation.spec.ts::TC-NEG-010: SQL injection in username is rejected @p2",
+    "name": "TC-NEG-010: SQL injection in username is rejected @p2",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:56.299Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/negative/NegativeInputValidation.spec.ts::TC-NEG-011: HTML in checkout first name is handled @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/negative/NegativeInputValidation.spec.ts::TC-NEG-011: HTML in checkout first name is handled @p2",
+    "name": "TC-NEG-011: HTML in checkout first name is handled @p2",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:57.531Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/negative/NegativeInputValidation.spec.ts::TC-NEG-012: Unicode in postal code is handled @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/negative/NegativeInputValidation.spec.ts::TC-NEG-012: Unicode in postal code is handled @p2",
+    "name": "TC-NEG-012: Unicode in postal code is handled @p2",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:57.895Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/negative/NegativeInputValidation.spec.ts::TC-NEG-013: problem_user checkout handles validation correctly @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/negative/NegativeInputValidation.spec.ts::TC-NEG-013: problem_user checkout handles validation correctly @p1",
+    "name": "TC-NEG-013: problem_user checkout handles validation correctly @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:57.886Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/negative/NegativeInputValidation.spec.ts::TC-NEG-014: error_user checkout validation works @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/negative/NegativeInputValidation.spec.ts::TC-NEG-014: error_user checkout validation works @p1",
+    "name": "TC-NEG-014: error_user checkout validation works @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:59.114Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/negative/NegativeInputValidation.spec.ts::TC-NEG-015: visual_user checkout validation works @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/negative/NegativeInputValidation.spec.ts::TC-NEG-015: visual_user checkout validation works @p1",
+    "name": "TC-NEG-015: visual_user checkout validation works @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:13:59.249Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/negative/NegativeInputValidation.spec.ts::TC-NEG-016: performance_glitch_user checkout validation works @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/negative/NegativeInputValidation.spec.ts::TC-NEG-016: performance_glitch_user checkout validation works @p1",
+    "name": "TC-NEG-016: performance_glitch_user checkout validation works @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:04.456Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/negative/NegativeInputValidation.spec.ts::TC-NEG-017: Empty cart checkout button is disabled or redirects @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/negative/NegativeInputValidation.spec.ts::TC-NEG-017: Empty cart checkout button is disabled or redirects @p1",
+    "name": "TC-NEG-017: Empty cart checkout button is disabled or redirects @p1",
+    "passedRuns": 0,
+    "failedRuns": 2,
+    "lastRun": "2026-04-30T14:13:59.903Z",
+    "lastStatus": "failed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/performance/PerformanceTests.spec.ts::TC-PERF-002: Inventory page loads within 5 seconds after login @performance @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/performance/PerformanceTests.spec.ts::TC-PERF-002: Inventory page loads within 5 seconds after login @performance @p1",
+    "name": "TC-PERF-002: Inventory page loads within 5 seconds after login @performance @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:01.373Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/performance/PerformanceTests.spec.ts::TC-PERF-001: Login page loads within 3 seconds @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/performance/PerformanceTests.spec.ts::TC-PERF-001: Login page loads within 3 seconds @p1",
+    "name": "TC-PERF-001: Login page loads within 3 seconds @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:00.193Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/performance/PerformanceTests.spec.ts::TC-PERF-003: performance_glitch_user login has 2-second delay (BUG-004) @performance @bug @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/performance/PerformanceTests.spec.ts::TC-PERF-003: performance_glitch_user login has 2-second delay (BUG-004) @performance @bug @p0",
+    "name": "TC-PERF-003: performance_glitch_user login has 2-second delay (BUG-004) @performance @bug @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:08.056Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/performance/PerformanceTests.spec.ts::TC-PERF-004: standard_user login completes in under 1 second @performance @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/performance/PerformanceTests.spec.ts::TC-PERF-004: standard_user login completes in under 1 second @performance @p1",
+    "name": "TC-PERF-004: standard_user login completes in under 1 second @performance @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:02.282Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/performance/PerformanceTests.spec.ts::TC-PERF-005: Cart page loads within 3 seconds @performance @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/performance/PerformanceTests.spec.ts::TC-PERF-005: Cart page loads within 3 seconds @performance @p1",
+    "name": "TC-PERF-005: Cart page loads within 3 seconds @performance @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:02.691Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/performance/PerformanceTests.spec.ts::TC-PERF-006: Checkout page loads within 3 seconds @performance @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/performance/PerformanceTests.spec.ts::TC-PERF-006: Checkout page loads within 3 seconds @performance @p1",
+    "name": "TC-PERF-006: Checkout page loads within 3 seconds @performance @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:03.863Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/performance/PerformanceTests.spec.ts::TC-PERF-007: Product detail page loads within 3 seconds @performance @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/performance/PerformanceTests.spec.ts::TC-PERF-007: Product detail page loads within 3 seconds @performance @p1",
+    "name": "TC-PERF-007: Product detail page loads within 3 seconds @performance @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:04.211Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/performance/PerformanceTests.spec.ts::TC-PERF-008: Sorting completes within 2 seconds @performance @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/performance/PerformanceTests.spec.ts::TC-PERF-008: Sorting completes within 2 seconds @performance @p2",
+    "name": "TC-PERF-008: Sorting completes within 2 seconds @performance @p2",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:07.435Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/performance/PerformanceTests.spec.ts::TC-PERF-009: Add to cart is instant (<500ms) @performance @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/performance/PerformanceTests.spec.ts::TC-PERF-009: Add to cart is instant (<500ms) @performance @p2",
+    "name": "TC-PERF-009: Add to cart is instant (<500ms) @performance @p2",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:08.696Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/performance/PerformanceTests.spec.ts::TC-PERF-010: problem_user performance is acceptable @performance @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/performance/PerformanceTests.spec.ts::TC-PERF-010: problem_user performance is acceptable @performance @p2",
+    "name": "TC-PERF-010: problem_user performance is acceptable @performance @p2",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:06.499Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/performance/PerformanceTests.spec.ts::TC-PERF-011: error_user performance is acceptable @performance @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/performance/PerformanceTests.spec.ts::TC-PERF-011: error_user performance is acceptable @performance @p2",
+    "name": "TC-PERF-011: error_user performance is acceptable @performance @p2",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:08.665Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/performance/PerformanceTests.spec.ts::TC-PERF-012: visual_user performance is acceptable @performance @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/performance/PerformanceTests.spec.ts::TC-PERF-012: visual_user performance is acceptable @performance @p2",
+    "name": "TC-PERF-012: visual_user performance is acceptable @performance @p2",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:09.616Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/performance/PerformanceTests.spec.ts::TC-PERF-014: Complete checkout flow under 10 seconds @performance @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/performance/PerformanceTests.spec.ts::TC-PERF-014: Complete checkout flow under 10 seconds @performance @p2",
+    "name": "TC-PERF-014: Complete checkout flow under 10 seconds @performance @p2",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:10.060Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/performance/PerformanceTests.spec.ts::TC-PERF-013: locked_out_user error response is fast @performance @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/performance/PerformanceTests.spec.ts::TC-PERF-013: locked_out_user error response is fast @performance @p2",
+    "name": "TC-PERF-013: locked_out_user error response is fast @performance @p2",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:09.690Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/performance/PerformanceTests.spec.ts::TC-PERF-015: Product page navigation is smooth @performance @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/performance/PerformanceTests.spec.ts::TC-PERF-015: Product page navigation is smooth @performance @p2",
+    "name": "TC-PERF-015: Product page navigation is smooth @performance @p2",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:13.408Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/pricing/PriceConsistency.spec.ts::TC-PRICE-001: standard_user inventory price equals cart price @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/pricing/PriceConsistency.spec.ts::TC-PRICE-001: standard_user inventory price equals cart price @critical @p0",
+    "name": "TC-PRICE-001: standard_user inventory price equals cart price @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:11.093Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/pricing/PriceConsistency.spec.ts::TC-PRICE-002: visual_user inventory price differs from cart price (BUG-003b) @bug": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/pricing/PriceConsistency.spec.ts::TC-PRICE-002: visual_user inventory price differs from cart price (BUG-003b) @bug",
+    "name": "TC-PRICE-002: visual_user inventory price differs from cart price (BUG-003b) @bug",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:11.429Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/pricing/PriceConsistency.spec.ts::TC-PRICE-003: Cart item prices match checkout overview prices @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/pricing/PriceConsistency.spec.ts::TC-PRICE-003: Cart item prices match checkout overview prices @critical @p0",
+    "name": "TC-PRICE-003: Cart item prices match checkout overview prices @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:11.744Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/pricing/PriceConsistency.spec.ts::TC-PRICE-004: Checkout total equals sum of items plus tax @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/pricing/PriceConsistency.spec.ts::TC-PRICE-004: Checkout total equals sum of items plus tax @critical @p0",
+    "name": "TC-PRICE-004: Checkout total equals sum of items plus tax @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:13.011Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/pricing/PriceConsistency.spec.ts::TC-PRICE-005: visual_user inventory shows wrong prices (BUG-003b) @bug": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/pricing/PriceConsistency.spec.ts::TC-PRICE-005: visual_user inventory shows wrong prices (BUG-003b) @bug",
+    "name": "TC-PRICE-005: visual_user inventory shows wrong prices (BUG-003b) @bug",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:14.040Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/pricing/PriceConsistency.spec.ts::TC-PRICE-006: visual_user cart shows correct prices despite inventory bug @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/pricing/PriceConsistency.spec.ts::TC-PRICE-006: visual_user cart shows correct prices despite inventory bug @p1",
+    "name": "TC-PRICE-006: visual_user cart shows correct prices despite inventory bug @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:13.323Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/product/ProductDataIntegrity.spec.ts::TC-PROD-001: All products have valid images for standard_user @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/product/ProductDataIntegrity.spec.ts::TC-PROD-001: All products have valid images for standard_user @p1",
+    "name": "TC-PROD-001: All products have valid images for standard_user @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:15.371Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/pricing/PriceConsistency.spec.ts::TC-PRICE-007: All products have correct prices for standard_user @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/pricing/PriceConsistency.spec.ts::TC-PRICE-007: All products have correct prices for standard_user @critical @p0",
+    "name": "TC-PRICE-007: All products have correct prices for standard_user @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:15.123Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/product/ProductDataIntegrity.spec.ts::TC-PROD-002: error_user product detail shows render error (BUG-002) @bug": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/product/ProductDataIntegrity.spec.ts::TC-PROD-002: error_user product detail shows render error (BUG-002) @bug",
+    "name": "TC-PROD-002: error_user product detail shows render error (BUG-002) @bug",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:19.154Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/product/ProductDataIntegrity.spec.ts::TC-PROD-004: All products have non-empty descriptions for standard_user @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/product/ProductDataIntegrity.spec.ts::TC-PROD-004: All products have non-empty descriptions for standard_user @p1",
+    "name": "TC-PROD-004: All products have non-empty descriptions for standard_user @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:17.652Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/product/ProductDataIntegrity.spec.ts::TC-PROD-003: visual_user has broken image (BUG-003a) @bug": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/product/ProductDataIntegrity.spec.ts::TC-PROD-003: visual_user has broken image (BUG-003a) @bug",
+    "name": "TC-PROD-003: visual_user has broken image (BUG-003a) @bug",
+    "passedRuns": 0,
+    "failedRuns": 2,
+    "lastRun": "2026-04-30T14:14:18.380Z",
+    "lastStatus": "failed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/product/ProductDataIntegrity.spec.ts::TC-PROD-005: All product names match expected values @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/product/ProductDataIntegrity.spec.ts::TC-PROD-005: All product names match expected values @p1",
+    "name": "TC-PROD-005: All product names match expected values @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:17.415Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/product/ProductDataIntegrity.spec.ts::TC-PROD-006: All products have valid positive prices @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/product/ProductDataIntegrity.spec.ts::TC-PROD-006: All products have valid positive prices @p1",
+    "name": "TC-PROD-006: All products have valid positive prices @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:19.458Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/product/ProductDataIntegrity.spec.ts::TC-PROD-008: Products sorted by price high to low @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/product/ProductDataIntegrity.spec.ts::TC-PROD-008: Products sorted by price high to low @p1",
+    "name": "TC-PROD-008: Products sorted by price high to low @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:21.551Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/product/ProductDataIntegrity.spec.ts::TC-PROD-007: Products sorted by price low to high @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/product/ProductDataIntegrity.spec.ts::TC-PROD-007: Products sorted by price low to high @p1",
+    "name": "TC-PROD-007: Products sorted by price low to high @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:19.755Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/product/ProductDataIntegrity.spec.ts::TC-PROD-009: error_user shows render error on all product details (BUG-002)": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/product/ProductDataIntegrity.spec.ts::TC-PROD-009: error_user shows render error on all product details (BUG-002)",
+    "name": "TC-PROD-009: error_user shows render error on all product details (BUG-002)",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:21.708Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/product/ProductDataIntegrity.spec.ts::TC-PROD-010: visual_user backpack image is sl-404.jpg (BUG-003a)": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/product/ProductDataIntegrity.spec.ts::TC-PROD-010: visual_user backpack image is sl-404.jpg (BUG-003a)",
+    "name": "TC-PROD-010: visual_user backpack image is sl-404.jpg (BUG-003a)",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:21.600Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/security/SecurityTests.spec.ts::TC-SEC-002: Direct cart URL without login redirects to login @security @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/security/SecurityTests.spec.ts::TC-SEC-002: Direct cart URL without login redirects to login @security @critical @p0",
+    "name": "TC-SEC-002: Direct cart URL without login redirects to login @security @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:21.848Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/security/SecurityTests.spec.ts::TC-SEC-001: Direct inventory URL without login redirects to login @security @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/security/SecurityTests.spec.ts::TC-SEC-001: Direct inventory URL without login redirects to login @security @critical @p0",
+    "name": "TC-SEC-001: Direct inventory URL without login redirects to login @security @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:20.815Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/security/SecurityTests.spec.ts::TC-SEC-003: Direct checkout URL without login redirects to login @security @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/security/SecurityTests.spec.ts::TC-SEC-003: Direct checkout URL without login redirects to login @security @critical @p0",
+    "name": "TC-SEC-003: Direct checkout URL without login redirects to login @security @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:22.619Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/security/SecurityTests.spec.ts::TC-SEC-004: Logged out session cannot access inventory @security @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/security/SecurityTests.spec.ts::TC-SEC-004: Logged out session cannot access inventory @security @p0",
+    "name": "TC-SEC-004: Logged out session cannot access inventory @security @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:23.786Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/security/SecurityTests.spec.ts::TC-SEC-006: Invalid item ID in URL is handled @security @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/security/SecurityTests.spec.ts::TC-SEC-006: Invalid item ID in URL is handled @security @p1",
+    "name": "TC-SEC-006: Invalid item ID in URL is handled @security @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:23.194Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/security/SecurityTests.spec.ts::TC-SEC-005: Session invalidated after logout @security @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/security/SecurityTests.spec.ts::TC-SEC-005: Session invalidated after logout @security @p0",
+    "name": "TC-SEC-005: Session invalidated after logout @security @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:23.914Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/security/SecurityTests.spec.ts::TC-SEC-007: Back button after logout is blocked @security @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/security/SecurityTests.spec.ts::TC-SEC-007: Back button after logout is blocked @security @p1",
+    "name": "TC-SEC-007: Back button after logout is blocked @security @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:24.715Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/security/SecurityTests.spec.ts::TC-SEC-008: No sensitive data in console errors @security @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/security/SecurityTests.spec.ts::TC-SEC-008: No sensitive data in console errors @security @p1",
+    "name": "TC-SEC-008: No sensitive data in console errors @security @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:25.872Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/security/SecurityTests.spec.ts::TC-SEC-009: No sensitive data in URL parameters @security @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/security/SecurityTests.spec.ts::TC-SEC-009: No sensitive data in URL parameters @security @p1",
+    "name": "TC-SEC-009: No sensitive data in URL parameters @security @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:25.088Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/security/SecurityTests.spec.ts::TC-SEC-010: Cannot skip checkout step one @security @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/security/SecurityTests.spec.ts::TC-SEC-010: Cannot skip checkout step one @security @p0",
+    "name": "TC-SEC-010: Cannot skip checkout step one @security @p0",
+    "passedRuns": 0,
+    "failedRuns": 2,
+    "lastRun": "2026-04-30T14:14:26.895Z",
+    "lastStatus": "failed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/security/SecurityTests.spec.ts::TC-SEC-011: Cannot access checkout step two without valid session @security @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/security/SecurityTests.spec.ts::TC-SEC-011: Cannot access checkout step two without valid session @security @p0",
+    "name": "TC-SEC-011: Cannot access checkout step two without valid session @security @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:26.866Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/security/SecurityTests.spec.ts::TC-SEC-012: Product names are escaped @security @p2": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/security/SecurityTests.spec.ts::TC-SEC-012: Product names are escaped @security @p2",
+    "name": "TC-SEC-012: Product names are escaped @security @p2",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:27.141Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/security/SecurityTests.spec.ts::TC-SEC-014: error_user cannot bypass auth @security @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/security/SecurityTests.spec.ts::TC-SEC-014: error_user cannot bypass auth @security @p1",
+    "name": "TC-SEC-014: error_user cannot bypass auth @security @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:27.911Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/security/SecurityTests.spec.ts::TC-SEC-013: Locked out user has no access @security @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/security/SecurityTests.spec.ts::TC-SEC-013: Locked out user has no access @security @p1",
+    "name": "TC-SEC-013: Locked out user has no access @security @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:26.996Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/security/SecurityTests.spec.ts::TC-SEC-015: visual_user logout invalidates session @security @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/security/SecurityTests.spec.ts::TC-SEC-015: visual_user logout invalidates session @security @p1",
+    "name": "TC-SEC-015: visual_user logout invalidates session @security @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:29.987Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/security/SecurityTests.spec.ts::TC-SEC-016: performance_glitch_user logout invalidates session @security @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/security/SecurityTests.spec.ts::TC-SEC-016: performance_glitch_user logout invalidates session @security @p1",
+    "name": "TC-SEC-016: performance_glitch_user logout invalidates session @security @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:34.205Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/security/SecurityTests.spec.ts::TC-SEC-018: No HttpOnly cookie manipulation possible @security @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/security/SecurityTests.spec.ts::TC-SEC-018: No HttpOnly cookie manipulation possible @security @p1",
+    "name": "TC-SEC-018: No HttpOnly cookie manipulation possible @security @p1",
+    "passedRuns": 0,
+    "failedRuns": 2,
+    "lastRun": "2026-04-30T14:14:34.232Z",
+    "lastStatus": "failed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/security/SecurityTests.spec.ts::TC-SEC-017: problem_user logout invalidates session @security @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/security/SecurityTests.spec.ts::TC-SEC-017: problem_user logout invalidates session @security @p1",
+    "name": "TC-SEC-017: problem_user logout invalidates session @security @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:29.268Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/smoke/SmokeTests.spec.ts::TC-SMOKE-002: Login succeeds for standard_user @smoke @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/smoke/SmokeTests.spec.ts::TC-SMOKE-002: Login succeeds for standard_user @smoke @critical @p0",
+    "name": "TC-SMOKE-002: Login succeeds for standard_user @smoke @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:32.001Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/smoke/SmokeTests.spec.ts::TC-SMOKE-001: Application is reachable @smoke @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/smoke/SmokeTests.spec.ts::TC-SMOKE-001: Application is reachable @smoke @critical @p0",
+    "name": "TC-SMOKE-001: Application is reachable @smoke @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:30.290Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/smoke/SmokeTests.spec.ts::TC-SMOKE-004: Add to cart updates cart badge @smoke @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/smoke/SmokeTests.spec.ts::TC-SMOKE-004: Add to cart updates cart badge @smoke @critical @p0",
+    "name": "TC-SMOKE-004: Add to cart updates cart badge @smoke @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:34.174Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/smoke/SmokeTests.spec.ts::TC-SMOKE-003: Inventory shows all 6 products @smoke @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/smoke/SmokeTests.spec.ts::TC-SMOKE-003: Inventory shows all 6 products @smoke @p0",
+    "name": "TC-SMOKE-003: Inventory shows all 6 products @smoke @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:32.347Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/smoke/SmokeTests.spec.ts::TC-SMOKE-005: Cart shows added items @smoke @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/smoke/SmokeTests.spec.ts::TC-SMOKE-005: Cart shows added items @smoke @p0",
+    "name": "TC-SMOKE-005: Cart shows added items @smoke @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:33.649Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/smoke/SmokeTests.spec.ts::TC-SMOKE-006: Full checkout flow completes @smoke @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/smoke/SmokeTests.spec.ts::TC-SMOKE-006: Full checkout flow completes @smoke @critical @p0",
+    "name": "TC-SMOKE-006: Full checkout flow completes @smoke @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:34.966Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/smoke/SmokeTests.spec.ts::TC-SMOKE-007: Logout redirects to login page @smoke @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/smoke/SmokeTests.spec.ts::TC-SMOKE-007: Logout redirects to login page @smoke @p0",
+    "name": "TC-SMOKE-007: Logout redirects to login page @smoke @p0",
+    "passedRuns": 0,
+    "failedRuns": 2,
+    "lastRun": "2026-04-30T14:14:42.735Z",
+    "lastStatus": "failed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/smoke/SmokeTests.spec.ts::TC-SMOKE-009: Product sorting works @smoke @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/smoke/SmokeTests.spec.ts::TC-SMOKE-009: Product sorting works @smoke @p1",
+    "name": "TC-SMOKE-009: Product sorting works @smoke @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:37.142Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/smoke/SmokeTests.spec.ts::TC-SMOKE-008: All critical pages are accessible @smoke @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/smoke/SmokeTests.spec.ts::TC-SMOKE-008: All critical pages are accessible @smoke @p0",
+    "name": "TC-SMOKE-008: All critical pages are accessible @smoke @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:35.665Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/smoke/SmokeTests.spec.ts::TC-SMOKE-010: Cart total calculation is correct @smoke @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/smoke/SmokeTests.spec.ts::TC-SMOKE-010: Cart total calculation is correct @smoke @p0",
+    "name": "TC-SMOKE-010: Cart total calculation is correct @smoke @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:36.240Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-journeys/UserJourneys.spec.ts::DDT-Journey: locked_out_user login behavior @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-journeys/UserJourneys.spec.ts::DDT-Journey: locked_out_user login behavior @critical @p0",
+    "name": "DDT-Journey: locked_out_user login behavior @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:38.513Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/smoke/SmokeTests.spec.ts::TC-SMOKE-011: Cart badge shows correct count @smoke @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/smoke/SmokeTests.spec.ts::TC-SMOKE-011: Cart badge shows correct count @smoke @p1",
+    "name": "TC-SMOKE-011: Cart badge shows correct count @smoke @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:38.226Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-journeys/UserJourneys.spec.ts::DDT-Journey: standard_user login behavior @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-journeys/UserJourneys.spec.ts::DDT-Journey: standard_user login behavior @critical @p0",
+    "name": "DDT-Journey: standard_user login behavior @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:38.260Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/smoke/SmokeTests.spec.ts::TC-SMOKE-012: Remove from cart works @smoke @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/smoke/SmokeTests.spec.ts::TC-SMOKE-012: Remove from cart works @smoke @p1",
+    "name": "TC-SMOKE-012: Remove from cart works @smoke @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:37.436Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-journeys/UserJourneys.spec.ts::DDT-Journey: problem_user login behavior @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-journeys/UserJourneys.spec.ts::DDT-Journey: problem_user login behavior @critical @p0",
+    "name": "DDT-Journey: problem_user login behavior @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:39.416Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-journeys/UserJourneys.spec.ts::DDT-Journey: error_user login behavior @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-journeys/UserJourneys.spec.ts::DDT-Journey: error_user login behavior @critical @p0",
+    "name": "DDT-Journey: error_user login behavior @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:39.655Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-journeys/UserJourneys.spec.ts::DDT-Journey: performance_glitch_user login behavior @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-journeys/UserJourneys.spec.ts::DDT-Journey: performance_glitch_user login behavior @critical @p0",
+    "name": "DDT-Journey: performance_glitch_user login behavior @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:44.444Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-journeys/UserJourneys.spec.ts::DDT-Journey: visual_user login behavior @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-journeys/UserJourneys.spec.ts::DDT-Journey: visual_user login behavior @critical @p0",
+    "name": "DDT-Journey: visual_user login behavior @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:40.515Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-journeys/UserJourneys.spec.ts::TC-JOURNEY-SU-02: Purchase with multiple items and price sorting @integration @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-journeys/UserJourneys.spec.ts::TC-JOURNEY-SU-02: Purchase with multiple items and price sorting @integration @p0",
+    "name": "TC-JOURNEY-SU-02: Purchase with multiple items and price sorting @integration @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:41.827Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-journeys/UserJourneys.spec.ts::TC-JOURNEY-SU-03: View product detail and add to cart @integration @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-journeys/UserJourneys.spec.ts::TC-JOURNEY-SU-03: View product detail and add to cart @integration @p0",
+    "name": "TC-JOURNEY-SU-03: View product detail and add to cart @integration @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:42.995Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-journeys/UserJourneys.spec.ts::TC-JOURNEY-SU-01: Complete purchase journey with single item @critical @smoke @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-journeys/UserJourneys.spec.ts::TC-JOURNEY-SU-01: Complete purchase journey with single item @critical @smoke @p0",
+    "name": "TC-JOURNEY-SU-01: Complete purchase journey with single item @critical @smoke @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:40.924Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-journeys/UserJourneys.spec.ts::TC-JOURNEY-PU-01: Cart prices correct; checkout has pricing bug @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-journeys/UserJourneys.spec.ts::TC-JOURNEY-PU-01: Cart prices correct; checkout has pricing bug @critical @p0",
+    "name": "TC-JOURNEY-PU-01: Cart prices correct; checkout has pricing bug @critical @p0",
+    "passedRuns": 0,
+    "failedRuns": 2,
+    "lastRun": "2026-04-30T14:14:50.205Z",
+    "lastStatus": "failed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-journeys/UserJourneys.spec.ts::TC-JOURNEY-PU-02: Order completes despite checkout pricing bug @bug @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-journeys/UserJourneys.spec.ts::TC-JOURNEY-PU-02: Order completes despite checkout pricing bug @bug @p0",
+    "name": "TC-JOURNEY-PU-02: Order completes despite checkout pricing bug @bug @p0",
+    "passedRuns": 0,
+    "failedRuns": 2,
+    "lastRun": "2026-04-30T14:15:13.330Z",
+    "lastStatus": "failed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-journeys/UserJourneys.spec.ts::TC-JOURNEY-EU-01: error_user product detail shows render error @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-journeys/UserJourneys.spec.ts::TC-JOURNEY-EU-01: error_user product detail shows render error @critical @p0",
+    "name": "TC-JOURNEY-EU-01: error_user product detail shows render error @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:44.188Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-journeys/UserJourneys.spec.ts::TC-JOURNEY-EU-02: error_user can add to cart from inventory without viewing detail @bug @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-journeys/UserJourneys.spec.ts::TC-JOURNEY-EU-02: error_user can add to cart from inventory without viewing detail @bug @p0",
+    "name": "TC-JOURNEY-EU-02: error_user can add to cart from inventory without viewing detail @bug @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:46.192Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-journeys/UserJourneys.spec.ts::TC-JOURNEY-VU-01: visual_user sees wrong prices on inventory but correct in cart @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-journeys/UserJourneys.spec.ts::TC-JOURNEY-VU-01: visual_user sees wrong prices on inventory but correct in cart @critical @p0",
+    "name": "TC-JOURNEY-VU-01: visual_user sees wrong prices on inventory but correct in cart @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:45.668Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-journeys/UserJourneys.spec.ts::TC-JOURNEY-VU-02: visual_user inventory has at least one broken image @bug @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-journeys/UserJourneys.spec.ts::TC-JOURNEY-VU-02: visual_user inventory has at least one broken image @bug @p0",
+    "name": "TC-JOURNEY-VU-02: visual_user inventory has at least one broken image @bug @p0",
+    "passedRuns": 0,
+    "failedRuns": 2,
+    "lastRun": "2026-04-30T14:14:50.563Z",
+    "lastStatus": "failed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-journeys/UserJourneys.spec.ts::Price Accuracy: standard_user (expected correct: true) @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-journeys/UserJourneys.spec.ts::Price Accuracy: standard_user (expected correct: true) @critical @p0",
+    "name": "Price Accuracy: standard_user (expected correct: true) @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:52.380Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-journeys/UserJourneys.spec.ts::TC-JOURNEY-PG-01: Slow login then full cart workflow functions normally @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-journeys/UserJourneys.spec.ts::TC-JOURNEY-PG-01: Slow login then full cart workflow functions normally @critical @p0",
+    "name": "TC-JOURNEY-PG-01: Slow login then full cart workflow functions normally @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:53.338Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-journeys/UserJourneys.spec.ts::Price Accuracy: problem_user (expected correct: true) @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-journeys/UserJourneys.spec.ts::Price Accuracy: problem_user (expected correct: true) @critical @p0",
+    "name": "Price Accuracy: problem_user (expected correct: true) @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:52.582Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-journeys/UserJourneys.spec.ts::Price Accuracy: error_user (expected correct: true) @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-journeys/UserJourneys.spec.ts::Price Accuracy: error_user (expected correct: true) @critical @p0",
+    "name": "Price Accuracy: error_user (expected correct: true) @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:53.667Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-journeys/UserJourneys.spec.ts::Price Accuracy: performance_glitch_user (expected correct: true) @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-journeys/UserJourneys.spec.ts::Price Accuracy: performance_glitch_user (expected correct: true) @critical @p0",
+    "name": "Price Accuracy: performance_glitch_user (expected correct: true) @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:15:00.242Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-journeys/UserJourneys.spec.ts::Price Accuracy: visual_user (expected correct: false) @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-journeys/UserJourneys.spec.ts::Price Accuracy: visual_user (expected correct: false) @critical @p0",
+    "name": "Price Accuracy: visual_user (expected correct: false) @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:53.833Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-types/UserTypes.spec.ts::TC-001: Standard user can login successfully @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-types/UserTypes.spec.ts::TC-001: Standard user can login successfully @critical @p0",
+    "name": "TC-001: Standard user can login successfully @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:54.843Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-types/UserTypes.spec.ts::TC-002: Standard user sees inventory items after login @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-types/UserTypes.spec.ts::TC-002: Standard user sees inventory items after login @critical @p0",
+    "name": "TC-002: Standard user sees inventory items after login @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:55.148Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-types/UserTypes.spec.ts::TC-004: Locked out user is NOT redirected to inventory @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-types/UserTypes.spec.ts::TC-004: Locked out user is NOT redirected to inventory @p1",
+    "name": "TC-004: Locked out user is NOT redirected to inventory @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:56.809Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-types/UserTypes.spec.ts::TC-003: Locked out user sees error message @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-types/UserTypes.spec.ts::TC-003: Locked out user sees error message @p1",
+    "name": "TC-003: Locked out user sees error message @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:56.736Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-types/UserTypes.spec.ts::TC-005: Locked out user error message is user-friendly @p1": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-types/UserTypes.spec.ts::TC-005: Locked out user error message is user-friendly @p1",
+    "name": "TC-005: Locked out user error message is user-friendly @p1",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:58.301Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-types/UserTypes.spec.ts::TC-006: Problem user can login @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-types/UserTypes.spec.ts::TC-006: Problem user can login @critical @p0",
+    "name": "TC-006: Problem user can login @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:14:58.327Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-types/UserTypes.spec.ts::TC-007: Problem user UI has visual defects @bug @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-types/UserTypes.spec.ts::TC-007: Problem user UI has visual defects @bug @p0",
+    "name": "TC-007: Problem user UI has visual defects @bug @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:15:00.351Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-types/UserTypes.spec.ts::TC-008: Problem user inventory items are rendered @bug @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-types/UserTypes.spec.ts::TC-008: Problem user inventory items are rendered @bug @p0",
+    "name": "TC-008: Problem user inventory items are rendered @bug @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:15:00.261Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-types/UserTypes.spec.ts::TC-009: Performance user can login @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-types/UserTypes.spec.ts::TC-009: Performance user can login @critical @p0",
+    "name": "TC-009: Performance user can login @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:15:06.862Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-types/UserTypes.spec.ts::TC-010: Performance user experiences slow page load @performance @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-types/UserTypes.spec.ts::TC-010: Performance user experiences slow page load @performance @p0",
+    "name": "TC-010: Performance user experiences slow page load @performance @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:15:07.690Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-types/UserTypes.spec.ts::TC-012: Error user can login @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-types/UserTypes.spec.ts::TC-012: Error user can login @critical @p0",
+    "name": "TC-012: Error user can login @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:15:10.436Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-types/UserTypes.spec.ts::TC-013: Error user does not cause white screen of death @bug @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-types/UserTypes.spec.ts::TC-013: Error user does not cause white screen of death @bug @p0",
+    "name": "TC-013: Error user does not cause white screen of death @bug @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:15:10.811Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-types/UserTypes.spec.ts::TC-011: Performance user inventory is functional despite slowness @performance @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-types/UserTypes.spec.ts::TC-011: Performance user inventory is functional despite slowness @performance @p0",
+    "name": "TC-011: Performance user inventory is functional despite slowness @performance @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:15:06.918Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-types/UserTypes.spec.ts::TC-014: Error user app handles gracefully @bug @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-types/UserTypes.spec.ts::TC-014: Error user app handles gracefully @bug @p0",
+    "name": "TC-014: Error user app handles gracefully @bug @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:15:11.861Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-types/UserTypes.spec.ts::TC-015: Visual user can login @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-types/UserTypes.spec.ts::TC-015: Visual user can login @critical @p0",
+    "name": "TC-015: Visual user can login @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:15:12.709Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-types/UserTypes.spec.ts::TC-016: Visual user captures baseline screenshots for VRT @bug @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-types/UserTypes.spec.ts::TC-016: Visual user captures baseline screenshots for VRT @bug @p0",
+    "name": "TC-016: Visual user captures baseline screenshots for VRT @bug @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:15:23.568Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-types/UserTypes.spec.ts::TC-017: Visual user baseline - login page @bug @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-types/UserTypes.spec.ts::TC-017: Visual user baseline - login page @bug @p0",
+    "name": "TC-017: Visual user baseline - login page @bug @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:15:13.544Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-types/UserTypes.spec.ts::DDT: standard_user login behavior @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-types/UserTypes.spec.ts::DDT: standard_user login behavior @critical @p0",
+    "name": "DDT: standard_user login behavior @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:15:16.843Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-types/UserTypes.spec.ts::TC-018: Visual user baseline - cart page @bug @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-types/UserTypes.spec.ts::TC-018: Visual user baseline - cart page @bug @p0",
+    "name": "TC-018: Visual user baseline - cart page @bug @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:15:15.550Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-types/UserTypes.spec.ts::DDT: locked_out_user login behavior @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-types/UserTypes.spec.ts::DDT: locked_out_user login behavior @critical @p0",
+    "name": "DDT: locked_out_user login behavior @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:15:15.287Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-types/UserTypes.spec.ts::DDT: problem_user login behavior @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-types/UserTypes.spec.ts::DDT: problem_user login behavior @critical @p0",
+    "name": "DDT: problem_user login behavior @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:15:16.870Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-types/UserTypes.spec.ts::DDT: error_user login behavior @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-types/UserTypes.spec.ts::DDT: error_user login behavior @critical @p0",
+    "name": "DDT: error_user login behavior @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:15:18.780Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-types/UserTypes.spec.ts::DDT: performance_glitch_user login behavior @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-types/UserTypes.spec.ts::DDT: performance_glitch_user login behavior @critical @p0",
+    "name": "DDT: performance_glitch_user login behavior @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:15:22.121Z",
+    "lastStatus": "passed"
+  },
+  "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-types/UserTypes.spec.ts::DDT: visual_user login behavior @critical @p0": {
+    "testId": "/Users/faisalaffan/go/src/github.com/faisalaffan/testcast/tests/user-types/UserTypes.spec.ts::DDT: visual_user login behavior @critical @p0",
+    "name": "DDT: visual_user login behavior @critical @p0",
+    "passedRuns": 1,
+    "failedRuns": 1,
+    "lastRun": "2026-04-30T14:15:18.796Z",
+    "lastStatus": "passed"
+  }
+}

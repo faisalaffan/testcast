@@ -1,0 +1,7 @@
+id,username,password,role,expectedResult,notes
+1,standard_user,secret_sauce,user,success,Happy path - all features work correctly
+2,locked_out_user,secret_sauce,user,locked,Login blocked - expected error
+3,problem_user,secret_sauce,user,success,BUG: checkout subtotal doubled (BUG-001)
+4,performance_glitch_user,secret_sauce,user,success,BUG: 2000ms login delay (BUG-004)
+5,error_user,secret_sauce,user,error,BUG: product detail render fails (BUG-002)
+6,visual_user,secret_sauce,user,success,BUG: wrong inventory prices (BUG-003)
