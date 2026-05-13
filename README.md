@@ -1,3 +1,15 @@
+<p align="center">
+  <a href="README.id.md">🇮🇩 Baca dalam Bahasa Indonesia</a>
+</p>
+
+<p align="center">
+  <img src="assets/01_BANNER_DARK.png" alt="TestCast Banner" width="100%">
+</p>
+
+<p align="center">
+  <img src="assets/02_LOGO.png" alt="TestCast Logo" width="180">
+</p>
+
 # TestCast — E2E Test Boilerplate
 
 Enterprise-grade E2E test boilerplate built with Playwright + TypeScript. TestCast provides a production-ready framework for automated testing, currently targeting [SauceDemo](https://www.saucedemo.com/) as the demo application.
